@@ -1,0 +1,1057 @@
+10-12-2015 08:31:31.71309[0][3] - Elapsed time: 1.973 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+10-12-2015 08:31:31.72074[3][3] - Elapsed time: 7.650 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+10-12-2015 08:31:31.72096[2][3] - Elapsed time: 0.229 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+10-12-2015 08:31:31.72115[0][3] - Elapsed time: 0.182 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = qpg4ur751am0d2cg36emsr7v81 
+-----------------------
+10-12-2015 08:31:31.72119[2][3] - Elapsed time: 0.042 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+10-12-2015 08:31:31.72122[2][3] - Elapsed time: 0.029 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on hello. 
+-----------------------
+10-12-2015 08:31:31.72129[2][3] - Elapsed time: 0.073 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+10-12-2015 08:31:31.72254[2][3] - Elapsed time: 1.245 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: HELLO
+Convo id: qpg4ur751am0d2cg36emsr7v81
+Bot id: 1
+Format: json 
+-----------------------
+10-12-2015 08:31:31.72259[3][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+10-12-2015 08:31:31.72281[2][3] - Elapsed time: 0.217 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+10-12-2015 08:31:31.72285[3][3] - Elapsed time: 0.041 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+10-12-2015 08:31:31.7231[2][3] - Elapsed time: 0.255 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+10-12-2015 08:31:31.72314[2][3] - Elapsed time: 0.040 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+10-12-2015 08:31:31.72339[2][3] - Elapsed time: 0.250 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+10-12-2015 08:31:31.72343[3][3] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 31 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+10-12-2015 08:31:31.72433[1][3] - Elapsed time: 0.901 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => SADDGD DGFG
+    [1] => ASDFSADF
+    [2] => TELL ME SOMETHING ABOUT DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS
+    [3] => DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS
+    [4] => SURE
+    [5] => HOW MANY DEPARTMENTS ARE THERE IN WMI
+    [6] => HELLO
+)
+ 
+-----------------------
+10-12-2015 08:31:31.72438[1][3] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => 
+    [1] => 
+    [2] => Members of the Department of Probability Theory and Mathematical Statistics work mainly in the field of multivariate statistics and the theory of experiments. IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+    [3] => Members of the Department of Probability Theory and Mathematical Statistics work mainly in the field of multivariate statistics and the theory of experiments.  IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+    [4] => Department of Algebra and Number Theory Department of Algorithmics and Programming Department of Functional Analysis Department of Mathematical Analysis Department of Arithmetical Algebraic Geometry Department of the Didactics of Mathematics Department of Geometry and Topology Department of Computer Linguistics and Artificial Intelligence Department of Mathematical Logic Department of Discrete Mathematics Department of Numerical Methods Department of Imprecise Information Processing Methods Department of Optimization and Control Theory Department of Probability Theory and Mathematical Statistics Department of Differential Equations Department of Algorithms Theory and Data Security Department of Real Functions Theory Department of Theory of Interpolation and Approximation Department of Computations Theory Department of Function Spaces Theory Information Systems Laboratory Financial Econometrics Laboratory ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT?
+    [5] => IN WMI THERE ARE 22 DEPARTMENTS. DO YOU WANT TO KNOW WHAT KINDS OF DEPARTMENTS?
+    [6] => HI THERE! HOW MAY I HELP YOU?
+)
+ 
+-----------------------
+10-12-2015 08:31:31.72443[2][3] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72453[2][3] - Elapsed time: 0.104 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE HOW MAY I HELP YOU' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72465[2][3] - Elapsed time: 0.115 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72474[2][3] - Elapsed time: 0.096 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN WMI THERE ARE 22 DEPARTMENTS DO YOU WANT TO KNOW WHAT KINDS OF DEPARTMENTS' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72485[2][3] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72551[2][3] - Elapsed time: 0.656 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF ALGEBRA AND NUMBER THEORY DEPARTMENT OF ALGORITHMICS AND PROGRAMMING DEPARTMENT OF FUNCTIONAL ANALYSIS DEPARTMENT OF MATHEMATICAL ANALYSIS DEPARTMENT OF ARITHMETICAL ALGEBRAIC GEOMETRY DEPARTMENT OF THE DIDACTICS OF MATHEMATICS DEPARTMENT OF GEOMETRY AND TOPOLOGY DEPARTMENT OF COMPUTER LINGUISTICS AND ARTIFICIAL INTELLIGENCE DEPARTMENT OF MATHEMATICAL LOGIC DEPARTMENT OF DISCRETE MATHEMATICS DEPARTMENT OF NUMERICAL METHODS DEPARTMENT OF IMPRECISE INFORMATION PROCESSING METHODS DEPARTMENT OF OPTIMIZATION AND CONTROL THEORY DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS DEPARTMENT OF DIFFERENTIAL EQUATIONS DEPARTMENT OF ALGORITHMS THEORY AND DATA SECURITY DEPARTMENT OF REAL FUNCTIONS THEORY DEPARTMENT OF THEORY OF INTERPOLATION AND APPROXIMATION DEPARTMENT OF COMPUTATIONS THEORY DEPARTMENT OF FUNCTION SPACES THEORY INFORMATION SYSTEMS LABORATORY FINANCIAL ECONOMETRICS LABORATORY ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72608[2][3] - Elapsed time: 0.566 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.7263[2][3] - Elapsed time: 0.224 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'MEMBERS OF THE DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS WORK MAINLY IN THE FIELD OF MULTIVARIATE STATISTICS AND THE THEORY OF EXPERIMENTS IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN STRUCTURE LAYOUT EDIT' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.7265[2][3] - Elapsed time: 0.199 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72672[2][3] - Elapsed time: 0.216 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'MEMBERS OF THE DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS WORK MAINLY IN THE FIELD OF MULTIVARIATE STATISTICS AND THE THEORY OF EXPERIMENTS IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN STRUCTURE LAYOUT EDIT' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72693[2][3] - Elapsed time: 0.213 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72698[2][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72704[2][3] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72709[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.72721[2][3] - Elapsed time: 0.120 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72727[2][3] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72733[2][3] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72743[2][3] - Elapsed time: 0.107 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HOW MANY DEPARTMENTS ARE THERE IN WMI' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72749[2][3] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72755[2][3] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SURE' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72758[2][3] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72768[2][3] - Elapsed time: 0.094 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72772[2][3] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72781[2][3] - Elapsed time: 0.089 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'TELL ME SOMETHING ABOUT DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72784[2][3] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72789[2][3] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ASDFSADF' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72793[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.72798[2][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SADDGD DGFG' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72889[2][3] - Elapsed time: 0.909 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+10-12-2015 08:31:31.72893[3][3] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+10-12-2015 08:31:31.72924[0][4] - Elapsed time: 0.306 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+10-12-2015 08:31:31.72927[0][4] - Elapsed time: 0.028 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+10-12-2015 08:31:31.72929[4][4] - Elapsed time: 0.021 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+10-12-2015 08:31:31.72931[2][4] - Elapsed time: 0.021 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [user_say] array 
+-----------------------
+10-12-2015 08:31:31.72934[4][4] - Elapsed time: 0.028 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+10-12-2015 08:31:31.72938[2][4] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+10-12-2015 08:31:31.72942[4][4] - Elapsed time: 0.038 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+10-12-2015 08:31:31.72944[4][4] - Elapsed time: 0.021 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HELLO' 
+-----------------------
+10-12-2015 08:31:31.72948[4][4] - Elapsed time: 0.037 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO' 
+-----------------------
+10-12-2015 08:31:31.7295[4][4] - Elapsed time: 0.022 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+10-12-2015 08:31:31.72972[4][4] - Elapsed time: 0.217 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+10-12-2015 08:31:31.72975[3][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '31' OR `user_id` = '-1') AND
+    `pattern` = 'HELLO' 
+-----------------------
+10-12-2015 08:31:31.7299[2][4] - Elapsed time: 0.150 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+10-12-2015 08:31:31.72993[4][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+10-12-2015 08:31:31.72996[4][4] - Elapsed time: 0.029 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: HELLO. Last word:HELLO 
+-----------------------
+10-12-2015 08:31:31.72998[4][4] - Elapsed time: 0.021 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: HELLO. First word:HELLO 
+-----------------------
+10-12-2015 08:31:31.73012[4][4] - Elapsed time: 0.147 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+10-12-2015 08:31:31.73016[4][4] - Elapsed time: 0.034 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: HELLO numWords:1 
+-----------------------
+10-12-2015 08:31:31.73018[3][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'HELLO' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+    order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+10-12-2015 08:31:31.73045[2][4] - Elapsed time: 0.269 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (1) potential AIML matches 
+-----------------------
+10-12-2015 08:31:31.73064[4][4] - Elapsed time: 0.191 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 1 rows to unset bad matches 
+-----------------------
+10-12-2015 08:31:31.73067[4][4] - Elapsed time: 0.029 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+10-12-2015 08:31:31.73075[4][4] - Elapsed time: 0.076 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 1 relevant rows 
+-----------------------
+10-12-2015 08:31:31.73077[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+10-12-2015 08:31:31.731[4][4] - Elapsed time: 0.230 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2221
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hello
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:31:31.73104[2][4] - Elapsed time: 0.038 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 2221! 
+-----------------------
+10-12-2015 08:31:31.73119[4][4] - Elapsed time: 0.148 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 2221. Value:
+'<random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>' 
+-----------------------
+10-12-2015 08:31:31.73123[4][4] - Elapsed time: 0.043 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2221
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hello
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:31:31.73125[2][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 2221 - HELLO 
+-----------------------
+10-12-2015 08:31:31.73128[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:2221 (HELLO) 
+-----------------------
+10-12-2015 08:31:31.7313[3][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+10-12-2015 08:31:31.73132[2][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+10-12-2015 08:31:31.73136[2][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+10-12-2015 08:31:31.73139[2][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+10-12-2015 08:31:31.73145[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random><random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random></template> 
+-----------------------
+10-12-2015 08:31:31.73153[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73159[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random><random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random></template>
+ 
+-----------------------
+10-12-2015 08:31:31.73163[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:31:31.73166[2][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.7317[4][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random> 
+-----------------------
+10-12-2015 08:31:31.73173[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:31:31.73176[4][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+10-12-2015 08:31:31.73178[2][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+10-12-2015 08:31:31.73184[4][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => HELLO, 
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => HI THERE! 
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => HI, 
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => HEY, 
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:31:31.73187[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #1 from random tag.
+ 
+-----------------------
+10-12-2015 08:31:31.73189[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73193[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>HI THERE! </text></li> 
+-----------------------
+10-12-2015 08:31:31.73196[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:31:31.73199[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73202[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>HI THERE! </text> 
+-----------------------
+10-12-2015 08:31:31.73205[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:31:31.73209[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+10-12-2015 08:31:31.73212[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+10-12-2015 08:31:31.73214[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HI THERE! ' to the response array. tag name is text 
+-----------------------
+10-12-2015 08:31:31.73217[2][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73219[4][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73222[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI THERE! ' 
+-----------------------
+10-12-2015 08:31:31.73224[4][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HI THERE! ' to the response array. tag name is li. 
+-----------------------
+10-12-2015 08:31:31.73227[2][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73229[4][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73232[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI THERE! ' 
+-----------------------
+10-12-2015 08:31:31.73234[4][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'HI THERE! ' for output. 
+-----------------------
+10-12-2015 08:31:31.73237[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HI THERE! ' to the response array. tag name is random 
+-----------------------
+10-12-2015 08:31:31.7324[2][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73242[4][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73245[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI THERE! ' 
+-----------------------
+10-12-2015 08:31:31.73247[4][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HI THERE! ' to the response array. tag name is template. 
+-----------------------
+10-12-2015 08:31:31.7325[2][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73256[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random> 
+-----------------------
+10-12-2015 08:31:31.73259[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:31:31.73262[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+10-12-2015 08:31:31.73265[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+10-12-2015 08:31:31.7327[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => IS THERE ANY WAY I CAN HELP YOU?
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => HOW MAY I HELP YOU?
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => WHAT CAN I DO FOR YOU?
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => ASK ME ANYTHING!
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:31:31.73273[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #1 from random tag.
+ 
+-----------------------
+10-12-2015 08:31:31.73275[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73279[4][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>HOW MAY I HELP YOU?</text></li> 
+-----------------------
+10-12-2015 08:31:31.73282[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:31:31.73285[2][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:31:31.73289[4][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>HOW MAY I HELP YOU?</text> 
+-----------------------
+10-12-2015 08:31:31.73292[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:31:31.73295[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+10-12-2015 08:31:31.73297[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+10-12-2015 08:31:31.73301[4][4] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HOW MAY I HELP YOU?' to the response array. tag name is text 
+-----------------------
+10-12-2015 08:31:31.73303[2][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73306[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73309[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73311[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HOW MAY I HELP YOU?' to the response array. tag name is li. 
+-----------------------
+10-12-2015 08:31:31.73314[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73317[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.7332[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73322[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'HOW MAY I HELP YOU?' for output. 
+-----------------------
+10-12-2015 08:31:31.73325[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HOW MAY I HELP YOU?' to the response array. tag name is random 
+-----------------------
+10-12-2015 08:31:31.73327[2][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.7333[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73333[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73336[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HOW MAY I HELP YOU?' to the response array. tag name is template. 
+-----------------------
+10-12-2015 08:31:31.7334[2][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:31:31.73343[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:31:31.73346[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI THERE! HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73349[4][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: HI THERE! HOW MAY I HELP YOU? 
+-----------------------
+10-12-2015 08:31:31.73353[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+10-12-2015 08:31:31.73355[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+10-12-2015 08:31:31.73358[2][4] - Elapsed time: 0.027 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE! HOW MAY I HELP YOU?' to the front of the [that_raw] array 
+-----------------------
+10-12-2015 08:31:31.73361[4][4] - Elapsed time: 0.036 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+10-12-2015 08:31:31.73369[2][4] - Elapsed time: 0.077 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE! HOW MAY I HELP YOU?' to the front of the [that] array 
+-----------------------
+10-12-2015 08:31:31.73374[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HI THERE!' 
+-----------------------
+10-12-2015 08:31:31.73377[4][4] - Elapsed time: 0.031 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HI THERE!' 
+-----------------------
+10-12-2015 08:31:31.73382[4][4] - Elapsed time: 0.048 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI THERE' 
+-----------------------
+10-12-2015 08:31:31.73385[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HI THERE' 
+-----------------------
+10-12-2015 08:31:31.73388[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73391[4][4] - Elapsed time: 0.028 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HOW MAY I HELP YOU?' 
+-----------------------
+10-12-2015 08:31:31.73396[4][4] - Elapsed time: 0.050 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HOW MAY I HELP YOU' 
+-----------------------
+10-12-2015 08:31:31.73399[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HOW MAY I HELP YOU' 
+-----------------------
+10-12-2015 08:31:31.73403[2][4] - Elapsed time: 0.043 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE! HOW MAY I HELP YOU?' to the front of the [parsed_template] array 
+-----------------------
+10-12-2015 08:31:31.73407[4][4] - Elapsed time: 0.038 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+10-12-2015 08:31:31.73411[2][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>' to the front of the [template] array 
+-----------------------
+10-12-2015 08:31:31.73416[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+10-12-2015 08:31:31.73421[2][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+10-12-2015 08:31:31.73425[3][4] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'HELLO',
+      'HI THERE! HOW MAY I HELP YOU?',
+      '31',
+      'qpg4ur751am0d2cg36emsr7v81',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+10-12-2015 08:31:31.7345[4][4] - Elapsed time: 0.252 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+10-12-2015 08:31:31.73467[3][4] - Elapsed time: 0.171 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '31'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'qpg4ur751am0d2cg36emsr7v81'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+10-12-2015 08:31:31.73487[2][4] - Elapsed time: 0.205 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+10-12-2015 08:31:31.73491[4][4] - Elapsed time: 0.039 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+10-12-2015 08:31:31.73494[2][4] - Elapsed time: 0.031 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+10-12-2015 08:31:31.73498[4][4] - Elapsed time: 0.041 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"qpg4ur751am0d2cg36emsr7v81","usersay":"HELLO","botsay":"HI THERE! HOW MAY I HELP YOU?"} 
+-----------------------
+10-12-2015 08:31:31.73502[2][4] - Elapsed time: 0.041 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+10-12-2015 08:31:31.73505[2][4] - Elapsed time: 0.029 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+10-12-2015 08:31:31.73517[0][4] - Elapsed time: 0.117 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 24.036 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => qpg4ur751am0d2cg36emsr7v81
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 31
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 150.254.79.29
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => HOW MAY I HELP YOU
+                    [2] => HI THERE
+                )
+
+            [2] => Array
+                (
+                    [1] => 
+                )
+
+            [3] => Array
+                (
+                    [1] => 
+                )
+
+            [4] => Array
+                (
+                    [1] => MEMBERS OF THE DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS WORK MAINLY IN THE FIELD OF MULTIVARIATE STATISTICS AND THE THEORY OF EXPERIMENTS IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN STRUCTURE LAYOUT EDIT
+                )
+
+            [5] => Array
+                (
+                    [1] => MEMBERS OF THE DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS WORK MAINLY IN THE FIELD OF MULTIVARIATE STATISTICS AND THE THEORY OF EXPERIMENTS IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN STRUCTURE LAYOUT EDIT
+                )
+
+            [6] => Array
+                (
+                    [1] => DEPARTMENT OF ALGEBRA AND NUMBER THEORY DEPARTMENT OF ALGORITHMICS AND PROGRAMMING DEPARTMENT OF FUNCTIONAL ANALYSIS DEPARTMENT OF MATHEMATICAL ANALYSIS DEPARTMENT OF ARITHMETICAL ALGEBRAIC GEOMETRY DEPARTMENT OF THE DIDACTICS OF MATHEMATICS DEPARTMENT OF GEOMETRY AND TOPOLOGY DEPARTMENT OF COMPUTER LINGUISTICS AND ARTIFICIAL INTELLIGENCE DEPARTMENT OF MATHEMATICAL LOGIC DEPARTMENT OF DISCRETE MATHEMATICS DEPARTMENT OF NUMERICAL METHODS DEPARTMENT OF IMPRECISE INFORMATION PROCESSING METHODS DEPARTMENT OF OPTIMIZATION AND CONTROL THEORY DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS DEPARTMENT OF DIFFERENTIAL EQUATIONS DEPARTMENT OF ALGORITHMS THEORY AND DATA SECURITY DEPARTMENT OF REAL FUNCTIONS THEORY DEPARTMENT OF THEORY OF INTERPOLATION AND APPROXIMATION DEPARTMENT OF COMPUTATIONS THEORY DEPARTMENT OF FUNCTION SPACES THEORY INFORMATION SYSTEMS LABORATORY FINANCIAL ECONOMETRICS LABORATORY ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT
+                )
+
+            [7] => Array
+                (
+                    [1] => IN WMI THERE ARE 22 DEPARTMENTS DO YOU WANT TO KNOW WHAT KINDS OF DEPARTMENTS
+                )
+
+            [8] => Array
+                (
+                    [1] => HI THERE HOW MAY I HELP YOU
+                )
+
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => HELLO
+            [2] => SADDGD DGFG
+            [3] => ASDFSADF
+            [4] => TELL ME SOMETHING ABOUT DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS
+            [5] => DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS
+            [6] => SURE
+            [7] => HOW MANY DEPARTMENTS ARE THERE IN WMI
+            [8] => HELLO
+            [9] => 
+            [10] => 
+        )
+
+    [time_start] => 1449736291.7111
+    [aiml] => Array
+        (
+            [user_raw] => HELLO
+            [lookingfor] => HELLO
+            [template_id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [template] => <random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>
+            [html_template] => 
+            [topic] => 
+            [score] => 260
+            [aiml_id] => 2221
+            [parsed_template] => HI THERE! HOW MAY I HELP YOU?
+        )
+
+    [user_say] => Array
+        (
+            [1] => HELLO
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => HOW MAY I HELP YOU?
+                    [3] => HI THERE!
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => HI THERE! HOW MAY I HELP YOU?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <random> <li>HELLO, </li> <li>HI THERE! </li> <li>HI, </li> <li>HEY, </li> </random> <random> <li>IS THERE ANY WAY I CAN HELP YOU?</li> <li>HOW MAY I HELP YOU?</li> <li>WHAT CAN I DO FOR YOU?</li> <li>ASK ME ANYTHING!</li> </random>
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"qpg4ur751am0d2cg36emsr7v81","usersay":"HELLO","botsay":"HI THERE! HOW MAY I HELP YOU?"}
+)
+
+-----------------------
+Total execution time: 24.036 Milliseconds. Goodbye.

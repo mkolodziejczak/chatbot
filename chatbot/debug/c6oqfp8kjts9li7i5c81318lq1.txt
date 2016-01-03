@@ -1,0 +1,934 @@
+17-12-2015 09:31:27.4964[0][3] - Elapsed time: 2.801 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+17-12-2015 09:31:27.50977[3][3] - Elapsed time: 13.372 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+17-12-2015 09:31:27.51006[2][3] - Elapsed time: 0.291 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+17-12-2015 09:31:27.51087[0][3] - Elapsed time: 0.805 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = c6oqfp8kjts9li7i5c81318lq1 
+-----------------------
+17-12-2015 09:31:27.51094[2][3] - Elapsed time: 0.069 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+17-12-2015 09:31:27.51097[2][3] - Elapsed time: 0.036 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on what. 
+-----------------------
+17-12-2015 09:31:27.51108[2][3] - Elapsed time: 0.102 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+17-12-2015 09:31:27.5122[2][3] - Elapsed time: 1.123 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on sexuality. 
+-----------------------
+17-12-2015 09:31:27.51238[2][3] - Elapsed time: 0.184 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on do. 
+-----------------------
+17-12-2015 09:31:27.51249[2][3] - Elapsed time: 0.105 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on you. 
+-----------------------
+17-12-2015 09:31:27.5126[2][3] - Elapsed time: 0.109 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on indentify. 
+-----------------------
+17-12-2015 09:31:27.51278[2][3] - Elapsed time: 0.180 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on with?. 
+-----------------------
+17-12-2015 09:31:27.51306[2][3] - Elapsed time: 0.282 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: WHAT SEXUALITY DO YOU INDENTIFY WITH
+Convo id: c6oqfp8kjts9li7i5c81318lq1
+Bot id: 1
+Format: json 
+-----------------------
+17-12-2015 09:31:27.51309[3][3] - Elapsed time: 0.034 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+17-12-2015 09:31:27.51344[2][3] - Elapsed time: 0.349 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+17-12-2015 09:31:27.51347[3][3] - Elapsed time: 0.030 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+17-12-2015 09:31:27.51374[2][3] - Elapsed time: 0.270 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+17-12-2015 09:31:27.51379[2][3] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+17-12-2015 09:31:27.514[2][3] - Elapsed time: 0.214 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+17-12-2015 09:31:27.51403[3][3] - Elapsed time: 0.028 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 81 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+17-12-2015 09:31:27.51526[1][3] - Elapsed time: 1.233 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => WHAT IS YOUR SEXUALITY
+    [1] => DO MACIEJ LIKE DOING BLOWJOBS ON COMPUTER SCIENCE FACULTY
+    [2] => DOES MACIEJ SUCK ON WMI
+    [3] => YOU SUCK
+    [4] => YOU ARE CRAZY
+    [5] => WHAT DO YOU MEAN
+    [6] => WHAT IS COMPUTER SCIENCE AND MATHMETICS
+)
+ 
+-----------------------
+17-12-2015 09:31:27.5153[1][3] - Elapsed time: 0.037 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => What do you mean?
+    [1] => Within the Computer Science studies there are two programs available: the Bachelor's and the Engineer's program. The Bachelor's program lasts 3 years (6 semesters) - its graduate is awarded a BSc degree. The Engineer's program lasts 3,5 years (7 semesters) - its graduate student is awarded an engineer's degree. HERE YOU CAN READ THE REST: https://www.wmi.amu.edu.pl/en/studies/computer-science ARE YOU INTERESTED IN COMPUTER SCIENCE?
+    [2] => What do you mean?
+    [3] => What do you mean?
+    [4] => What do you mean?
+    [5] => What do you mean?
+    [6] => Within the Computer Science studies there are two programs available: the Bachelor's and the Engineer's program. The Bachelor's program lasts 3 years (6 semesters) - its graduate is awarded a BSc degree. The Engineer's program lasts 3,5 years (7 semesters) - its graduate student is awarded an engineer's degree. HERE YOU CAN READ THE REST: https://www.wmi.amu.edu.pl/en/studies/computer-science ARE YOU INTERESTED IN COMPUTER SCIENCE?
+)
+ 
+-----------------------
+17-12-2015 09:31:27.51536[2][3] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51574[2][3] - Elapsed time: 0.380 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE ARE YOU INTERESTED IN COMPUTER SCIENCE' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51606[2][3] - Elapsed time: 0.316 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51612[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51621[2][3] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51628[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51637[2][3] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51644[2][3] - Elapsed time: 0.074 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51652[2][3] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51658[2][3] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51666[2][3] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.517[2][3] - Elapsed time: 0.343 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE ARE YOU INTERESTED IN COMPUTER SCIENCE' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51729[2][3] - Elapsed time: 0.294 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51737[2][3] - Elapsed time: 0.076 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.51747[2][3] - Elapsed time: 0.101 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51755[2][3] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS COMPUTER SCIENCE AND MATHMETICS' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.5176[2][3] - Elapsed time: 0.046 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51765[2][3] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51769[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51774[2][3] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YOU ARE CRAZY' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51778[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51783[2][3] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YOU SUCK' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51786[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51792[2][3] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DOES MACIEJ SUCK ON WMI' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51795[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51803[2][3] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DO MACIEJ LIKE DOING BLOWJOBS ON COMPUTER SCIENCE FACULTY' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51806[2][3] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.51812[2][3] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS YOUR SEXUALITY' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.51944[2][3] - Elapsed time: 1.321 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+17-12-2015 09:31:27.5195[3][3] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+17-12-2015 09:31:27.51988[0][4] - Elapsed time: 0.377 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+17-12-2015 09:31:27.51992[0][4] - Elapsed time: 0.042 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+17-12-2015 09:31:27.51996[4][4] - Elapsed time: 0.037 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+17-12-2015 09:31:27.52[2][4] - Elapsed time: 0.040 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT SEXUALITY DO YOU INDENTIFY WITH' to the front of the [user_say] array 
+-----------------------
+17-12-2015 09:31:27.52006[4][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+17-12-2015 09:31:27.52013[2][4] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT SEXUALITY DO YOU INDENTIFY WITH' to the front of the [input] array 
+-----------------------
+17-12-2015 09:31:27.5202[4][4] - Elapsed time: 0.066 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+17-12-2015 09:31:27.52023[4][4] - Elapsed time: 0.038 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHAT SEXUALITY DO YOU INDENTIFY WITH' 
+-----------------------
+17-12-2015 09:31:27.52033[4][4] - Elapsed time: 0.102 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHAT SEXUALITY DO YOU INDENTIFY WITH' 
+-----------------------
+17-12-2015 09:31:27.52037[4][4] - Elapsed time: 0.038 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+17-12-2015 09:31:27.52107[4][4] - Elapsed time: 0.699 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+17-12-2015 09:31:27.52111[3][4] - Elapsed time: 0.036 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '81' OR `user_id` = '-1') AND
+    `pattern` = 'WHAT SEXUALITY DO YOU INDENTIFY WITH' 
+-----------------------
+17-12-2015 09:31:27.52132[2][4] - Elapsed time: 0.210 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+17-12-2015 09:31:27.52135[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+17-12-2015 09:31:27.52138[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: WHAT SEXUALITY DO YOU INDENTIFY WITH. Last word:WITH 
+-----------------------
+17-12-2015 09:31:27.52141[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: WHAT SEXUALITY DO YOU INDENTIFY WITH. First word:WHAT 
+-----------------------
+17-12-2015 09:31:27.5216[4][4] - Elapsed time: 0.195 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+17-12-2015 09:31:27.52165[4][4] - Elapsed time: 0.045 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+17-12-2015 09:31:27.52169[4][4] - Elapsed time: 0.041 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: WHAT DO YOU MEAN 
+-----------------------
+17-12-2015 09:31:27.52174[4][4] - Elapsed time: 0.050 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => WHAT
+    [1] => DO
+    [2] => YOU
+    [3] => MEAN
+)
+ 
+-----------------------
+17-12-2015 09:31:27.52184[4][4] - Elapsed time: 0.099 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `thatpattern` like '%' 
+-----------------------
+17-12-2015 09:31:27.52188[4][4] - Elapsed time: 0.041 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `thatpattern` like 'WHAT % MEAN' OR
+  `thatpattern` like 'WHAT %' OR
+  `thatpattern` like 'WHAT DO %' OR
+  `thatpattern` like 'WHAT DO YOU %' OR
+  `thatpattern` like 'WHAT DO YOU MEAN' OR
+  `thatpattern` like '% DO YOU MEAN' OR
+  `thatpattern` like '% YOU MEAN' OR
+  `thatpattern` like '% MEAN' OR
+  `thatpattern` like '%' OR
+  `thatpattern` like '% DO YOU MEAN %' OR
+  `thatpattern` like '% YOU MEAN %' OR
+  `thatpattern` like '% MEAN %' OR
+  `thatpattern` like '% %' OR
+ 
+-----------------------
+17-12-2015 09:31:27.52193[4][4] - Elapsed time: 0.050 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: WHAT SEXUALITY DO YOU INDENTIFY WITH numWords:6 
+-----------------------
+17-12-2015 09:31:27.52196[4][4] - Elapsed time: 0.028 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+17-12-2015 09:31:27.52198[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: WHAT SEXUALITY DO YOU INDENTIFY WITH 
+-----------------------
+17-12-2015 09:31:27.52201[4][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => WHAT
+    [1] => SEXUALITY
+    [2] => DO
+    [3] => YOU
+    [4] => INDENTIFY
+    [5] => WITH
+)
+ 
+-----------------------
+17-12-2015 09:31:27.52208[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `pattern` like '%' 
+-----------------------
+17-12-2015 09:31:27.52211[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `pattern` like 'WHAT % WITH' OR
+  `pattern` like 'WHAT %' OR
+  `pattern` like 'WHAT SEXUALITY %' OR
+  `pattern` like 'WHAT SEXUALITY DO %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU INDENTIFY %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU INDENTIFY WITH' OR
+  `pattern` like '% SEXUALITY DO YOU INDENTIFY WITH' OR
+  `pattern` like '% DO YOU INDENTIFY WITH' OR
+  `pattern` like '% YOU INDENTIFY WITH' OR
+  `pattern` like '% INDENTIFY WITH' OR
+  `pattern` like '% WITH' OR
+  `pattern` like '%' OR
+  `pattern` like '% SEXUALITY DO YOU INDENTIFY WITH %' OR
+  `pattern` like '% DO YOU INDENTIFY WITH %' OR
+  `pattern` like '% YOU INDENTIFY WITH %' OR
+  `pattern` like '% INDENTIFY WITH %' OR
+  `pattern` like '% WITH %' OR
+  `pattern` like '% %' OR
+ 
+-----------------------
+17-12-2015 09:31:27.52213[3][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'WHAT SEXUALITY DO YOU INDENTIFY WITH' OR 
+  `pattern` like 'WHAT % WITH' OR
+  `pattern` like 'WHAT %' OR
+  `pattern` like 'WHAT SEXUALITY %' OR
+  `pattern` like 'WHAT SEXUALITY DO %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU INDENTIFY %' OR
+  `pattern` like 'WHAT SEXUALITY DO YOU INDENTIFY WITH' OR
+  `pattern` like '% SEXUALITY DO YOU INDENTIFY WITH' OR
+  `pattern` like '% DO YOU INDENTIFY WITH' OR
+  `pattern` like '% YOU INDENTIFY WITH' OR
+  `pattern` like '% INDENTIFY WITH' OR
+  `pattern` like '% WITH' OR
+  `pattern` like '%' OR
+  `pattern` like '% SEXUALITY DO YOU INDENTIFY WITH %' OR
+  `pattern` like '% DO YOU INDENTIFY WITH %' OR
+  `pattern` like '% YOU INDENTIFY WITH %' OR
+  `pattern` like '% INDENTIFY WITH %' OR
+  `pattern` like '% WITH %' OR
+  `pattern` like '% %' OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+17-12-2015 09:31:27.52387[2][4] - Elapsed time: 1.739 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (132) potential AIML matches 
+-----------------------
+17-12-2015 09:31:27.52432[4][4] - Elapsed time: 0.449 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 132 rows to unset bad matches 
+-----------------------
+17-12-2015 09:31:27.52437[4][4] - Elapsed time: 0.046 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+17-12-2015 09:31:27.52917[4][4] - Elapsed time: 4.804 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 1 relevant rows 
+-----------------------
+17-12-2015 09:31:27.52933[4][4] - Elapsed time: 0.159 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+17-12-2015 09:31:27.52969[4][4] - Elapsed time: 0.357 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+17-12-2015 09:31:27.52973[2][4] - Elapsed time: 0.041 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 2981! 
+-----------------------
+17-12-2015 09:31:27.52989[4][4] - Elapsed time: 0.165 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 2981. Value:
+'What do you mean?' 
+-----------------------
+17-12-2015 09:31:27.52994[4][4] - Elapsed time: 0.047 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+17-12-2015 09:31:27.52996[2][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 2981 - * 
+-----------------------
+17-12-2015 09:31:27.52999[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:2981 (*) 
+-----------------------
+17-12-2015 09:31:27.53001[3][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+17-12-2015 09:31:27.53004[2][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+17-12-2015 09:31:27.53007[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+17-12-2015 09:31:27.53009[2][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking '(.*)' against 'WHAT SEXUALITY DO YOU INDENTIFY WITH'. 
+-----------------------
+17-12-2015 09:31:27.53012[2][4] - Elapsed time: 0.038 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [1] => 
+        )
+
+    [1] => Array
+        (
+            [0] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [1] => 
+        )
+
+)
+ 
+-----------------------
+17-12-2015 09:31:27.53016[2][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding WHAT SEXUALITY DO YOU INDENTIFY WITH to the star stack. 
+-----------------------
+17-12-2015 09:31:27.53019[2][4] - Elapsed time: 0.038 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+17-12-2015 09:31:27.53022[2][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+17-12-2015 09:31:27.53026[4][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>What do you mean?</text></template> 
+-----------------------
+17-12-2015 09:31:27.53033[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 09:31:27.53048[4][4] - Elapsed time: 0.146 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>What do you mean?</text></template>
+ 
+-----------------------
+17-12-2015 09:31:27.53053[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+17-12-2015 09:31:27.53058[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 09:31:27.53062[4][4] - Elapsed time: 0.038 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>What do you mean?</text> 
+-----------------------
+17-12-2015 09:31:27.53064[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+17-12-2015 09:31:27.53067[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+17-12-2015 09:31:27.53069[2][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+17-12-2015 09:31:27.53072[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'What do you mean?' to the response array. tag name is text 
+-----------------------
+17-12-2015 09:31:27.53075[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.53078[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 09:31:27.5308[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'What do you mean?' 
+-----------------------
+17-12-2015 09:31:27.53084[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'What do you mean?' to the response array. tag name is template. 
+-----------------------
+17-12-2015 09:31:27.53087[2][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 09:31:27.5309[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 09:31:27.53093[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'What do you mean?' 
+-----------------------
+17-12-2015 09:31:27.53096[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: What do you mean? 
+-----------------------
+17-12-2015 09:31:27.53099[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+17-12-2015 09:31:27.53107[4][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+17-12-2015 09:31:27.53112[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [that_raw] array 
+-----------------------
+17-12-2015 09:31:27.53118[4][4] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+17-12-2015 09:31:27.53129[2][4] - Elapsed time: 0.111 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [that] array 
+-----------------------
+17-12-2015 09:31:27.53137[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'What do you mean?' 
+-----------------------
+17-12-2015 09:31:27.5314[4][4] - Elapsed time: 0.034 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'What do you mean?' 
+-----------------------
+17-12-2015 09:31:27.53147[4][4] - Elapsed time: 0.070 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHAT DO YOU MEAN' 
+-----------------------
+17-12-2015 09:31:27.5315[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHAT DO YOU MEAN' 
+-----------------------
+17-12-2015 09:31:27.53156[2][4] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [parsed_template] array 
+-----------------------
+17-12-2015 09:31:27.53162[4][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+17-12-2015 09:31:27.53169[2][4] - Elapsed time: 0.070 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [template] array 
+-----------------------
+17-12-2015 09:31:27.53175[4][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+17-12-2015 09:31:27.53183[2][4] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+17-12-2015 09:31:27.53188[3][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'WHAT SEXUALITY DO YOU INDENTIFY WITH',
+      'What do you mean?',
+      '81',
+      'c6oqfp8kjts9li7i5c81318lq1',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+17-12-2015 09:31:27.53217[4][4] - Elapsed time: 0.286 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+17-12-2015 09:31:27.53236[3][4] - Elapsed time: 0.191 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '81'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'c6oqfp8kjts9li7i5c81318lq1'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+17-12-2015 09:31:27.53259[2][4] - Elapsed time: 0.226 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+17-12-2015 09:31:27.53262[4][4] - Elapsed time: 0.037 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+17-12-2015 09:31:27.53265[2][4] - Elapsed time: 0.029 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+17-12-2015 09:31:27.53269[4][4] - Elapsed time: 0.039 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"c6oqfp8kjts9li7i5c81318lq1","usersay":"WHAT SEXUALITY DO YOU INDENTIFY WITH","botsay":"What do you mean?"} 
+-----------------------
+17-12-2015 09:31:27.53273[2][4] - Elapsed time: 0.040 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+17-12-2015 09:31:27.53276[2][4] - Elapsed time: 0.027 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+17-12-2015 09:31:27.53287[0][4] - Elapsed time: 0.115 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 39.252 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => c6oqfp8kjts9li7i5c81318lq1
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 81
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 213.156.109.254
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [2] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [3] => Array
+                (
+                    [1] => WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE ARE YOU INTERESTED IN COMPUTER SCIENCE
+                )
+
+            [4] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [5] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [6] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [7] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [8] => Array
+                (
+                    [1] => WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE ARE YOU INTERESTED IN COMPUTER SCIENCE
+                )
+
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [2] => WHAT IS YOUR SEXUALITY
+            [3] => DO MACIEJ LIKE DOING BLOWJOBS ON COMPUTER SCIENCE FACULTY
+            [4] => DOES MACIEJ SUCK ON WMI
+            [5] => YOU SUCK
+            [6] => YOU ARE CRAZY
+            [7] => WHAT DO YOU MEAN
+            [8] => WHAT IS COMPUTER SCIENCE AND MATHMETICS
+            [9] => 
+            [10] => 
+        )
+
+    [time_start] => 1450344687.4936
+    [aiml] => Array
+        (
+            [user_raw] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [lookingfor] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [template_id] => 2981
+            [pattern] => *
+            [thatpattern] => 
+            [template] => What do you mean?
+            [html_template] => 
+            [topic] => 
+            [score] => 252
+            [aiml_id] => 2981
+            [parsed_template] => What do you mean?
+        )
+
+    [user_say] => Array
+        (
+            [1] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [star] => Array
+        (
+            [1] => WHAT SEXUALITY DO YOU INDENTIFY WITH
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => What do you mean?
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => What do you mean?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => What do you mean?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"c6oqfp8kjts9li7i5c81318lq1","usersay":"WHAT SEXUALITY DO YOU INDENTIFY WITH","botsay":"What do you mean?"}
+)
+
+-----------------------
+Total execution time: 39.252 Milliseconds. Goodbye.

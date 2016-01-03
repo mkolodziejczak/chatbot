@@ -1,0 +1,743 @@
+11-12-2015 18:06:07.52681[0][3] - Elapsed time: 2.758 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+11-12-2015 18:06:07.53977[3][3] - Elapsed time: 12.959 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+11-12-2015 18:06:07.54004[2][3] - Elapsed time: 0.268 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+11-12-2015 18:06:07.54028[0][3] - Elapsed time: 0.245 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = eaqnt558odm31lerl0td7kam50 
+-----------------------
+11-12-2015 18:06:07.54036[2][3] - Elapsed time: 0.083 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+11-12-2015 18:06:07.54041[2][3] - Elapsed time: 0.049 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on shit. 
+-----------------------
+11-12-2015 18:06:07.5405[2][3] - Elapsed time: 0.085 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+11-12-2015 18:06:07.54149[2][3] - Elapsed time: 0.989 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: SHIT
+Convo id: eaqnt558odm31lerl0td7kam50
+Bot id: 1
+Format: json 
+-----------------------
+11-12-2015 18:06:07.54153[3][3] - Elapsed time: 0.040 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+11-12-2015 18:06:07.54167[2][3] - Elapsed time: 0.147 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+11-12-2015 18:06:07.54172[3][3] - Elapsed time: 0.043 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+11-12-2015 18:06:07.54192[2][3] - Elapsed time: 0.206 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+11-12-2015 18:06:07.54195[2][3] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+11-12-2015 18:06:07.54218[2][3] - Elapsed time: 0.225 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+11-12-2015 18:06:07.54222[3][3] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 1 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+11-12-2015 18:06:07.54258[1][3] - Elapsed time: 0.356 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => FUCK
+    [1] => SHIT
+    [2] => WHERE IS WMI
+    [3] => STUDY MATHEMATICS
+    [4] => WHAT CAN YOU TELL ME ABOUT THE MATHEMATICS LESSONS
+    [5] => MATHEMATICS
+    [6] => TELL ME THE HISTORY OF WMI
+    [7] => DO YOU LIKE COMPUTER SCIENCE
+    [8] => WHO ARE YOU
+    [9] => WHAT CAN YOU TELL ME ABOUT THE UNIVERSITY
+)
+ 
+-----------------------
+11-12-2015 18:06:07.54268[1][3] - Elapsed time: 0.104 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => 
+    [1] => 
+    [2] => WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE!
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO-  FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS.  IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ.  IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY.
+    [7] => Within the Computer Science studies there are two programs available: the Bachelor's and the Engineer's program. The Bachelor's program lasts 3 years (6 semesters) - its graduate is awarded a BSc degree. The Engineer's program lasts 3,5 years (7 semesters) - its graduate student is awarded an engineer's degree. HERE YOU CAN READ THE REST: https://www.wmi.amu.edu.pl/en/studies/computer-science
+    [8] => I'm WMIBOT and I'm here to answer all of your questions on WMI Faculty!
+    [9] => 
+)
+ 
+-----------------------
+11-12-2015 18:06:07.54277[2][3] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54287[2][3] - Elapsed time: 0.099 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54295[2][3] - Elapsed time: 0.088 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54307[2][3] - Elapsed time: 0.117 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54322[2][3] - Elapsed time: 0.153 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54361[2][3] - Elapsed time: 0.391 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.5439[2][3] - Elapsed time: 0.282 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.5441[2][3] - Elapsed time: 0.199 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54432[2][3] - Elapsed time: 0.224 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54439[2][3] - Elapsed time: 0.067 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54447[2][3] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54452[2][3] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54458[2][3] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54465[2][3] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54471[2][3] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54482[2][3] - Elapsed time: 0.112 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54495[2][3] - Elapsed time: 0.128 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.545[2][3] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54506[2][3] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54511[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.54522[2][3] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.5453[2][3] - Elapsed time: 0.088 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT CAN YOU TELL ME ABOUT THE UNIVERSITY' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54536[2][3] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54542[2][3] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE YOU' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54545[2][3] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54554[2][3] - Elapsed time: 0.084 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DO YOU LIKE COMPUTER SCIENCE' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.5456[2][3] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54569[2][3] - Elapsed time: 0.089 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'TELL ME THE HISTORY OF WMI' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54574[2][3] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.5458[2][3] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'MATHEMATICS' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54585[2][3] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54595[2][3] - Elapsed time: 0.103 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT CAN YOU TELL ME ABOUT THE MATHEMATICS LESSONS' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54601[2][3] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.5461[2][3] - Elapsed time: 0.095 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'STUDY MATHEMATICS' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54615[2][3] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54623[2][3] - Elapsed time: 0.080 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHERE IS WMI' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54628[2][3] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54635[2][3] - Elapsed time: 0.069 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SHIT' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.5464[2][3] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.54646[2][3] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'FUCK' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54748[2][3] - Elapsed time: 1.026 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+11-12-2015 18:06:07.54753[3][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+11-12-2015 18:06:07.54782[0][4] - Elapsed time: 0.283 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+11-12-2015 18:06:07.54785[0][4] - Elapsed time: 0.032 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+11-12-2015 18:06:07.54787[4][4] - Elapsed time: 0.025 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+11-12-2015 18:06:07.5479[2][4] - Elapsed time: 0.023 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SHIT' to the front of the [user_say] array 
+-----------------------
+11-12-2015 18:06:07.54793[4][4] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+11-12-2015 18:06:07.54798[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SHIT' to the front of the [input] array 
+-----------------------
+11-12-2015 18:06:07.54802[4][4] - Elapsed time: 0.042 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+11-12-2015 18:06:07.54804[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'SHIT' 
+-----------------------
+11-12-2015 18:06:07.54808[4][4] - Elapsed time: 0.038 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'SHIT' 
+-----------------------
+11-12-2015 18:06:07.54811[4][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+11-12-2015 18:06:07.54832[4][4] - Elapsed time: 0.218 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+11-12-2015 18:06:07.54836[3][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '1' OR `user_id` = '-1') AND
+    `pattern` = 'SHIT' 
+-----------------------
+11-12-2015 18:06:07.54851[2][4] - Elapsed time: 0.154 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+11-12-2015 18:06:07.54854[4][4] - Elapsed time: 0.032 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+11-12-2015 18:06:07.54857[4][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: SHIT. Last word:SHIT 
+-----------------------
+11-12-2015 18:06:07.54859[4][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: SHIT. First word:SHIT 
+-----------------------
+11-12-2015 18:06:07.54874[4][4] - Elapsed time: 0.148 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+11-12-2015 18:06:07.54878[4][4] - Elapsed time: 0.034 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: SHIT numWords:1 
+-----------------------
+11-12-2015 18:06:07.54881[3][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'SHIT' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+    order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+11-12-2015 18:06:07.54909[1][4] - Elapsed time: 0.285 milliseconds
+[find_aiml.php][find_aiml_matches][967]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+11-12-2015 18:06:07.54929[4][4] - Elapsed time: 0.195 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 1 rows to unset bad matches 
+-----------------------
+11-12-2015 18:06:07.54934[1][4] - Elapsed time: 0.052 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][140]
+Returning error as no results where found 
+-----------------------
+11-12-2015 18:06:07.54939[4][4] - Elapsed time: 0.050 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+11-12-2015 18:06:07.54966[1][4] - Elapsed time: 0.273 milliseconds
+[find_aiml.php][score_matches][352]
+Found an error trying to identify the chatbot. 
+-----------------------
+11-12-2015 18:06:07.54972[4][4] - Elapsed time: 0.062 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+)
+ 
+-----------------------
+11-12-2015 18:06:07.54977[4][4] - Elapsed time: 0.046 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+)
+ 
+-----------------------
+11-12-2015 18:06:07.5498[2][4] - Elapsed time: 0.028 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 0 responses with same score:  -  
+-----------------------
+11-12-2015 18:06:07.54983[4][4] - Elapsed time: 0.028 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id: () 
+-----------------------
+11-12-2015 18:06:07.54986[3][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+11-12-2015 18:06:07.54988[2][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+11-12-2015 18:06:07.54992[2][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+11-12-2015 18:06:07.54996[2][4] - Elapsed time: 0.041 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+11-12-2015 18:06:07.55001[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template></template> 
+-----------------------
+11-12-2015 18:06:07.55008[2][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+11-12-2015 18:06:07.55014[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template/>
+ 
+-----------------------
+11-12-2015 18:06:07.55018[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+11-12-2015 18:06:07.55023[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+11-12-2015 18:06:07.55028[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say:  
+-----------------------
+11-12-2015 18:06:07.55033[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+11-12-2015 18:06:07.55037[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+11-12-2015 18:06:07.55042[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that_raw] array 
+-----------------------
+11-12-2015 18:06:07.55048[4][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+11-12-2015 18:06:07.55057[2][4] - Elapsed time: 0.095 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+11-12-2015 18:06:07.55063[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: '' 
+-----------------------
+11-12-2015 18:06:07.55067[4][4] - Elapsed time: 0.043 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = '' 
+-----------------------
+11-12-2015 18:06:07.55072[4][4] - Elapsed time: 0.049 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = '' 
+-----------------------
+11-12-2015 18:06:07.55075[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = '' 
+-----------------------
+11-12-2015 18:06:07.5508[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [parsed_template] array 
+-----------------------
+11-12-2015 18:06:07.55084[4][4] - Elapsed time: 0.039 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+11-12-2015 18:06:07.55088[2][4] - Elapsed time: 0.041 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [template] array 
+-----------------------
+11-12-2015 18:06:07.55091[4][4] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+11-12-2015 18:06:07.55096[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+11-12-2015 18:06:07.55099[3][4] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'SHIT',
+      '',
+      '1',
+      'eaqnt558odm31lerl0td7kam50',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+11-12-2015 18:06:07.55126[4][4] - Elapsed time: 0.268 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+11-12-2015 18:06:07.55144[3][4] - Elapsed time: 0.181 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '1'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'eaqnt558odm31lerl0td7kam50'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+11-12-2015 18:06:07.55165[2][4] - Elapsed time: 0.213 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+11-12-2015 18:06:07.55169[4][4] - Elapsed time: 0.036 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+11-12-2015 18:06:07.55171[2][4] - Elapsed time: 0.027 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+11-12-2015 18:06:07.55176[4][4] - Elapsed time: 0.045 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"eaqnt558odm31lerl0td7kam50","usersay":"SHIT","botsay":""} 
+-----------------------
+11-12-2015 18:06:07.55182[2][4] - Elapsed time: 0.061 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+11-12-2015 18:06:07.55186[2][4] - Elapsed time: 0.044 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+11-12-2015 18:06:07.55203[0][4] - Elapsed time: 0.166 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 27.949 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => eaqnt558odm31lerl0td7kam50
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 1
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 178.183.181.73
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                )
+
+            [2] => Array
+                (
+                    [1] => 
+                )
+
+            [3] => Array
+                (
+                    [1] => 
+                )
+
+            [4] => Array
+                (
+                    [1] => WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE
+                )
+
+            [5] => Array
+                (
+                    [1] => 
+                )
+
+            [6] => Array
+                (
+                    [1] => 
+                )
+
+            [7] => Array
+                (
+                    [1] => 
+                )
+
+            [8] => Array
+                (
+                    [1] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY
+                )
+
+            [9] => Array
+                (
+                    [1] => WITHIN THE COMPUTER SCIENCE STUDIES THERE ARE TWO PROGRAMS AVAILABLE THE BACHELOR S AND THE ENGINEER S PROGRAM THE BACHELOR S PROGRAM LASTS 3 YEARS 6 SEMESTERS ITS GRADUATE IS AWARDED A BSC DEGREE THE ENGINEER S PROGRAM LASTS 3 5 YEARS 7 SEMESTERS ITS GRADUATE STUDENT IS AWARDED AN ENGINEER S DEGREE HERE YOU CAN READ THE REST HTTPS WWW WMI AMU EDU PL EN STUDIES COMPUTER SCIENCE
+                )
+
+            [10] => Array
+                (
+                    [1] => I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => SHIT
+            [2] => FUCK
+            [3] => SHIT
+            [4] => WHERE IS WMI
+            [5] => STUDY MATHEMATICS
+            [6] => WHAT CAN YOU TELL ME ABOUT THE MATHEMATICS LESSONS
+            [7] => MATHEMATICS
+            [8] => TELL ME THE HISTORY OF WMI
+            [9] => DO YOU LIKE COMPUTER SCIENCE
+            [10] => WHO ARE YOU
+        )
+
+    [time_start] => 1449857167.524
+    [aiml] => Array
+        (
+            [user_raw] => SHIT
+            [lookingfor] => SHIT
+            [pattern] => 
+            [thatpattern] => 
+            [template] => 
+            [html_template] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => SHIT
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"eaqnt558odm31lerl0td7kam50","usersay":"SHIT","botsay":""}
+)
+
+-----------------------
+Total execution time: 27.949 Milliseconds. Goodbye.

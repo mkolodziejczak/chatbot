@@ -1,0 +1,1563 @@
+10-12-2015 08:16:07.90718[0][3] - Elapsed time: 2.817 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+10-12-2015 08:16:07.91625[3][3] - Elapsed time: 9.079 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+10-12-2015 08:16:07.91651[2][3] - Elapsed time: 0.250 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+10-12-2015 08:16:07.91681[0][3] - Elapsed time: 0.309 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = fdmt0o19b0c0c3gj6i2db7k4b0 
+-----------------------
+10-12-2015 08:16:07.91686[2][3] - Elapsed time: 0.046 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+10-12-2015 08:16:07.91689[2][3] - Elapsed time: 0.027 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on hello. 
+-----------------------
+10-12-2015 08:16:07.91696[2][3] - Elapsed time: 0.070 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+10-12-2015 08:16:07.91778[2][3] - Elapsed time: 0.821 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: HELLO
+Convo id: fdmt0o19b0c0c3gj6i2db7k4b0
+Bot id: 1
+Format: json 
+-----------------------
+10-12-2015 08:16:07.91781[3][3] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+10-12-2015 08:16:07.91795[2][3] - Elapsed time: 0.142 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+10-12-2015 08:16:07.91798[3][3] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+10-12-2015 08:16:07.91817[2][3] - Elapsed time: 0.186 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+10-12-2015 08:16:07.9182[2][3] - Elapsed time: 0.034 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+10-12-2015 08:16:07.91838[2][3] - Elapsed time: 0.178 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+10-12-2015 08:16:07.91841[3][3] - Elapsed time: 0.027 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 21 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+10-12-2015 08:16:07.91949[1][3] - Elapsed time: 1.082 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => WHAT ARE YOUR SEXUAL PREFERENCES
+    [1] => THANK YOU
+    [2] => HTANK YOU
+    [3] => HELLO
+    [4] => WHAT ARE YOUR SEXUAL PREFERENCES
+    [5] => YES
+    [6] => WHAT IS WMI
+    [7] => WHO ARE YOU
+    [8] => HI
+)
+ 
+-----------------------
+10-12-2015 08:16:07.91954[1][3] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => I sexually Identify as an Attack Helicopter. Ever since I was a boy I dreamed of soaring over the oilfields dropping hot sticky loads on disgusting foreigners. People say to me that a person being a helicopter is Impossible and I'm retarded but I don't care, I'm beautiful. I'm having a plastic surgeon install rotary blades, 30 mm cannons and AMG-114 Hellfire missiles on my body. From now on I want you to call me "Apache" and respect my right to kill from above and kill needlessly. If you can't accept me you're a heliphobe and need to check your vehicle privilege. Thank you for being so understanding.
+    [1] => Thank Mr. Skeltal for good bones and calcium!
+    [2] => 
+    [3] => HI, HOW MAY I HELP YOU?
+    [4] => I sexually Identify as an Attack Helicopter. Ever since I was a boy I dreamed of soaring over the oilfields dropping hot sticky loads on disgusting foreigners. People say to me that a person being a helicopter is Impossible and I'm fucking retarded but I don't care, I'm beautiful. I'm having a plastic surgeon install rotary blades, 30 mm cannons and AMG-114 Hellfire missiles on my body. From now on I want you guys to call me "Apache" and respect my right to kill from above and kill needlessly. If you can't accept me you're a heliphobe and need to check your vehicle privilege. Thank you for being so understanding.
+    [5] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO- FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS. IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ. IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY.
+    [6] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY.  IT'S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE! DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI?
+    [7] => I'm WMIBOT and I'm here to answer all of your questions on WMI Faculty!
+    [8] => HI, IS THERE ANY WAY I CAN HELP YOU?
+)
+ 
+-----------------------
+10-12-2015 08:16:07.91964[2][3] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.91978[2][3] - Elapsed time: 0.145 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI IS THERE ANY WAY I CAN HELP YOU' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.91996[2][3] - Elapsed time: 0.181 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92012[2][3] - Elapsed time: 0.161 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92028[2][3] - Elapsed time: 0.154 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92044[2][3] - Elapsed time: 0.167 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92062[2][3] - Elapsed time: 0.180 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92084[2][3] - Elapsed time: 0.213 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92108[2][3] - Elapsed time: 0.245 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92153[2][3] - Elapsed time: 0.450 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE I WAS A BOY I DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND I M FUCKING RETARDED BUT I DON T CARE I M BEAUTIFUL I M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON I WANT YOU GUYS TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92196[2][3] - Elapsed time: 0.427 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92203[2][3] - Elapsed time: 0.068 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI HOW MAY I HELP YOU' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92211[2][3] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92216[2][3] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92222[2][3] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.9223[2][3] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THANK MR SKELTAL FOR GOOD BONES AND CALCIUM' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.9224[2][3] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92294[2][3] - Elapsed time: 0.547 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE I WAS A BOY I DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND I M RETARDED BUT I DON T CARE I M BEAUTIFUL I M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON I WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.92339[2][3] - Elapsed time: 0.445 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92345[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.9235[2][3] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92355[2][3] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE YOU' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92359[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92364[2][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS WMI' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92367[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92372[2][3] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YES' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92375[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92381[2][3] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT ARE YOUR SEXUAL PREFERENCES' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92385[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.9239[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92393[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92398[2][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HTANK YOU' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92402[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.9241[2][3] - Elapsed time: 0.086 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THANK YOU' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92416[2][3] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.92424[2][3] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT ARE YOUR SEXUAL PREFERENCES' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92531[2][3] - Elapsed time: 1.071 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+10-12-2015 08:16:07.92539[3][3] - Elapsed time: 0.080 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+10-12-2015 08:16:07.92585[0][4] - Elapsed time: 0.462 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+10-12-2015 08:16:07.9259[0][4] - Elapsed time: 0.045 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+10-12-2015 08:16:07.92594[4][4] - Elapsed time: 0.039 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+10-12-2015 08:16:07.92598[2][4] - Elapsed time: 0.041 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [user_say] array 
+-----------------------
+10-12-2015 08:16:07.92603[4][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+10-12-2015 08:16:07.92611[2][4] - Elapsed time: 0.073 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+10-12-2015 08:16:07.92617[4][4] - Elapsed time: 0.063 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+10-12-2015 08:16:07.92621[4][4] - Elapsed time: 0.039 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HELLO' 
+-----------------------
+10-12-2015 08:16:07.92629[4][4] - Elapsed time: 0.080 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO' 
+-----------------------
+10-12-2015 08:16:07.92633[4][4] - Elapsed time: 0.039 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+10-12-2015 08:16:07.92667[4][4] - Elapsed time: 0.345 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+10-12-2015 08:16:07.92672[3][4] - Elapsed time: 0.048 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '21' OR `user_id` = '-1') AND
+    `pattern` = 'HELLO' 
+-----------------------
+10-12-2015 08:16:07.92693[2][4] - Elapsed time: 0.213 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+10-12-2015 08:16:07.92698[4][4] - Elapsed time: 0.046 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+10-12-2015 08:16:07.92704[4][4] - Elapsed time: 0.059 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: HELLO. Last word:HELLO 
+-----------------------
+10-12-2015 08:16:07.92708[4][4] - Elapsed time: 0.040 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: HELLO. First word:HELLO 
+-----------------------
+10-12-2015 08:16:07.9273[4][4] - Elapsed time: 0.216 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+10-12-2015 08:16:07.92734[4][4] - Elapsed time: 0.047 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+10-12-2015 08:16:07.92738[4][4] - Elapsed time: 0.040 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE I WAS A BOY I DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND I M RETARDED BUT I DON T CARE I M BEAUTIFUL I M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON I WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING 
+-----------------------
+10-12-2015 08:16:07.9275[4][4] - Elapsed time: 0.117 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => I
+    [1] => SEXUALLY
+    [2] => IDENTIFY
+    [3] => AS
+    [4] => AN
+    [5] => ATTACK
+    [6] => HELICOPTER
+    [7] => EVER
+    [8] => SINCE
+    [9] => I
+    [10] => WAS
+    [11] => A
+    [12] => BOY
+    [13] => I
+    [14] => DREAMED
+    [15] => OF
+    [16] => SOARING
+    [17] => OVER
+    [18] => THE
+    [19] => OILFIELDS
+    [20] => DROPPING
+    [21] => HOT
+    [22] => STICKY
+    [23] => LOADS
+    [24] => ON
+    [25] => DISGUSTING
+    [26] => FOREIGNERS
+    [27] => PEOPLE
+    [28] => SAY
+    [29] => TO
+    [30] => ME
+    [31] => THAT
+    [32] => A
+    [33] => PERSON
+    [34] => BEING
+    [35] => A
+    [36] => HELICOPTER
+    [37] => IS
+    [38] => IMPOSSIBLE
+    [39] => AND
+    [40] => I
+    [41] => M
+    [42] => RETARDED
+    [43] => BUT
+    [44] => I
+    [45] => DON
+    [46] => T
+    [47] => CARE
+    [48] => I
+    [49] => M
+    [50] => BEAUTIFUL
+    [51] => I
+    [52] => M
+    [53] => HAVING
+    [54] => A
+    [55] => PLASTIC
+    [56] => SURGEON
+    [57] => INSTALL
+    [58] => ROTARY
+    [59] => BLADES
+    [60] => 30
+    [61] => MM
+    [62] => CANNONS
+    [63] => AND
+    [64] => AMG
+    [65] => 114
+    [66] => HELLFIRE
+    [67] => MISSILES
+    [68] => ON
+    [69] => MY
+    [70] => BODY
+    [71] => FROM
+    [72] => NOW
+    [73] => ON
+    [74] => I
+    [75] => WANT
+    [76] => YOU
+    [77] => TO
+    [78] => CALL
+    [79] => ME
+    [80] => APACHE
+    [81] => AND
+    [82] => RESPECT
+    [83] => MY
+    [84] => RIGHT
+    [85] => TO
+    [86] => KILL
+    [87] => FROM
+    [88] => ABOVE
+    [89] => AND
+    [90] => KILL
+    [91] => NEEDLESSLY
+    [92] => IF
+    [93] => YOU
+    [94] => CAN
+    [95] => T
+    [96] => ACCEPT
+    [97] => ME
+    [98] => YOU
+    [99] => RE
+    [100] => A
+    [101] => HELIPHOBE
+    [102] => AND
+    [103] => NEED
+    [104] => TO
+    [105] => CHECK
+    [106] => YOUR
+    [107] => VEHICLE
+    [108] => PRIVILEGE
+    [109] => THANK
+    [110] => YOU
+    [111] => FOR
+    [112] => BEING
+    [113] => SO
+    [114] => UNDERSTANDING
+)
+ 
+-----------------------
+10-12-2015 08:16:07.92835[4][4] - Elapsed time: 0.847 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `thatpattern` like '%' 
+-----------------------
+10-12-2015 08:16:07.9284[4][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `thatpattern` like 'I % UNDERSTANDING' OR
+  `thatpattern` like 'I %' OR
+  `thatpattern` like 'I SEXUALLY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO %' OR
+  `thatpattern` like 'I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% THANK YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% YOU FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% FOR BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% BEING SO UNDERSTANDING' OR
+  `thatpattern` like '% SO UNDERSTANDING' OR
+  `thatpattern` like '% UNDERSTANDING' OR
+  `thatpattern` like '%' OR
+  `thatpattern` like '% SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AS AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AN ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ATTACK HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HELICOPTER EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% EVER SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% SINCE WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% WAS A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% A BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BOY DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% PERSON BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BEING A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% A HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HELICOPTER IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% IS IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% IMPOSSIBLE AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AND M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% RETARDED BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BUT DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% DON T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% T CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% CARE M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BEAUTIFUL M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HELLFIRE MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% MISSILES ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ON MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% MY BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BODY FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% FROM NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% NOW ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ON WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% THANK YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% YOU FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% FOR BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% BEING SO UNDERSTANDING %' OR
+  `thatpattern` like '% SO UNDERSTANDING %' OR
+  `thatpattern` like '% UNDERSTANDING %' OR
+  `thatpattern` like '% %' OR
+ 
+-----------------------
+10-12-2015 08:16:07.92848[4][4] - Elapsed time: 0.082 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: HELLO numWords:1 
+-----------------------
+10-12-2015 08:16:07.92851[3][4] - Elapsed time: 0.027 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'HELLO' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+    order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+10-12-2015 08:16:07.92885[2][4] - Elapsed time: 0.337 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (1) potential AIML matches 
+-----------------------
+10-12-2015 08:16:07.92909[4][4] - Elapsed time: 0.243 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 1 rows to unset bad matches 
+-----------------------
+10-12-2015 08:16:07.92914[4][4] - Elapsed time: 0.049 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+10-12-2015 08:16:07.92927[4][4] - Elapsed time: 0.135 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 1 relevant rows 
+-----------------------
+10-12-2015 08:16:07.92932[4][4] - Elapsed time: 0.044 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+10-12-2015 08:16:07.93039[4][4] - Elapsed time: 1.072 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2221
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hello
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:16:07.93046[2][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 2221! 
+-----------------------
+10-12-2015 08:16:07.93067[4][4] - Elapsed time: 0.209 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 2221. Value:
+'<random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>' 
+-----------------------
+10-12-2015 08:16:07.93074[4][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2221
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hello
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:16:07.93078[2][4] - Elapsed time: 0.043 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 2221 - HELLO 
+-----------------------
+10-12-2015 08:16:07.93082[4][4] - Elapsed time: 0.044 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:2221 (HELLO) 
+-----------------------
+10-12-2015 08:16:07.93087[3][4] - Elapsed time: 0.042 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+10-12-2015 08:16:07.93091[2][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+10-12-2015 08:16:07.93097[2][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+10-12-2015 08:16:07.93101[2][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+10-12-2015 08:16:07.9311[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random><random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random></template> 
+-----------------------
+10-12-2015 08:16:07.93121[2][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93129[4][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random><random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random></template>
+ 
+-----------------------
+10-12-2015 08:16:07.93134[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:16:07.9314[2][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93147[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>HELLO, </text></li><li><text>HI THERE! </text></li><li><text>HI, </text></li><li><text>HEY, </text></li></random> 
+-----------------------
+10-12-2015 08:16:07.93152[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:16:07.93157[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+10-12-2015 08:16:07.93161[2][4] - Elapsed time: 0.042 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+10-12-2015 08:16:07.93171[4][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => HELLO, 
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => HI THERE! 
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => HI, 
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => HEY, 
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:16:07.93176[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #2 from random tag.
+ 
+-----------------------
+10-12-2015 08:16:07.9318[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93186[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>HI, </text></li> 
+-----------------------
+10-12-2015 08:16:07.93191[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:16:07.93196[2][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93202[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>HI, </text> 
+-----------------------
+10-12-2015 08:16:07.93207[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:16:07.93212[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+10-12-2015 08:16:07.93216[2][4] - Elapsed time: 0.042 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+10-12-2015 08:16:07.93221[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HI, ' to the response array. tag name is text 
+-----------------------
+10-12-2015 08:16:07.93226[2][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.9323[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93235[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI, ' 
+-----------------------
+10-12-2015 08:16:07.9324[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HI, ' to the response array. tag name is li. 
+-----------------------
+10-12-2015 08:16:07.93245[2][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.9325[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93254[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI, ' 
+-----------------------
+10-12-2015 08:16:07.93259[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'HI, ' for output. 
+-----------------------
+10-12-2015 08:16:07.93263[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'HI, ' to the response array. tag name is random 
+-----------------------
+10-12-2015 08:16:07.93268[2][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.93272[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93277[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI, ' 
+-----------------------
+10-12-2015 08:16:07.93281[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'HI, ' to the response array. tag name is template. 
+-----------------------
+10-12-2015 08:16:07.93287[2][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93295[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li><li><text>HOW MAY I HELP YOU?</text></li><li><text>WHAT CAN I DO FOR YOU?</text></li><li><text>ASK ME ANYTHING!</text></li></random> 
+-----------------------
+10-12-2015 08:16:07.933[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:16:07.93305[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+10-12-2015 08:16:07.93309[2][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+10-12-2015 08:16:07.93319[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => IS THERE ANY WAY I CAN HELP YOU?
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => HOW MAY I HELP YOU?
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => WHAT CAN I DO FOR YOU?
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => ASK ME ANYTHING!
+        )
+
+)
+ 
+-----------------------
+10-12-2015 08:16:07.93324[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #0 from random tag.
+ 
+-----------------------
+10-12-2015 08:16:07.93328[2][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.93335[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>IS THERE ANY WAY I CAN HELP YOU?</text></li> 
+-----------------------
+10-12-2015 08:16:07.9334[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+10-12-2015 08:16:07.93346[2][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+10-12-2015 08:16:07.9335[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>IS THERE ANY WAY I CAN HELP YOU?</text> 
+-----------------------
+10-12-2015 08:16:07.93353[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+10-12-2015 08:16:07.93356[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+10-12-2015 08:16:07.93359[2][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+10-12-2015 08:16:07.93363[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'IS THERE ANY WAY I CAN HELP YOU?' to the response array. tag name is text 
+-----------------------
+10-12-2015 08:16:07.93366[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.93369[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93372[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93374[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'IS THERE ANY WAY I CAN HELP YOU?' to the response array. tag name is li. 
+-----------------------
+10-12-2015 08:16:07.93377[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.93382[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93386[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93388[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'IS THERE ANY WAY I CAN HELP YOU?' for output. 
+-----------------------
+10-12-2015 08:16:07.93391[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'IS THERE ANY WAY I CAN HELP YOU?' to the response array. tag name is random 
+-----------------------
+10-12-2015 08:16:07.93394[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.93396[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93399[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93402[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'IS THERE ANY WAY I CAN HELP YOU?' to the response array. tag name is template. 
+-----------------------
+10-12-2015 08:16:07.93406[2][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+10-12-2015 08:16:07.93408[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+10-12-2015 08:16:07.93412[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI, IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93415[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: HI, IS THERE ANY WAY I CAN HELP YOU? 
+-----------------------
+10-12-2015 08:16:07.93419[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+10-12-2015 08:16:07.93422[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+10-12-2015 08:16:07.93425[2][4] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI, IS THERE ANY WAY I CAN HELP YOU?' to the front of the [that_raw] array 
+-----------------------
+10-12-2015 08:16:07.93429[4][4] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+10-12-2015 08:16:07.93437[2][4] - Elapsed time: 0.077 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI, IS THERE ANY WAY I CAN HELP YOU?' to the front of the [that] array 
+-----------------------
+10-12-2015 08:16:07.93444[4][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HI, IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93449[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HI, IS THERE ANY WAY I CAN HELP YOU?' 
+-----------------------
+10-12-2015 08:16:07.93461[4][4] - Elapsed time: 0.118 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI IS THERE ANY WAY I CAN HELP YOU' 
+-----------------------
+10-12-2015 08:16:07.93465[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HI IS THERE ANY WAY I CAN HELP YOU' 
+-----------------------
+10-12-2015 08:16:07.93472[2][4] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI, IS THERE ANY WAY I CAN HELP YOU?' to the front of the [parsed_template] array 
+-----------------------
+10-12-2015 08:16:07.93476[4][4] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+10-12-2015 08:16:07.9348[2][4] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>' to the front of the [template] array 
+-----------------------
+10-12-2015 08:16:07.93485[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+10-12-2015 08:16:07.9349[2][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+10-12-2015 08:16:07.93494[3][4] - Elapsed time: 0.037 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'HELLO',
+      'HI, IS THERE ANY WAY I CAN HELP YOU?',
+      '21',
+      'fdmt0o19b0c0c3gj6i2db7k4b0',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+10-12-2015 08:16:07.93529[4][4] - Elapsed time: 0.346 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+10-12-2015 08:16:07.93552[3][4] - Elapsed time: 0.231 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '21'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'fdmt0o19b0c0c3gj6i2db7k4b0'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+10-12-2015 08:16:07.93575[2][4] - Elapsed time: 0.234 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+10-12-2015 08:16:07.93579[4][4] - Elapsed time: 0.041 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+10-12-2015 08:16:07.93582[2][4] - Elapsed time: 0.032 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+10-12-2015 08:16:07.93588[4][4] - Elapsed time: 0.060 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"fdmt0o19b0c0c3gj6i2db7k4b0","usersay":"HELLO","botsay":"HI, IS THERE ANY WAY I CAN HELP YOU?"} 
+-----------------------
+10-12-2015 08:16:07.93595[2][4] - Elapsed time: 0.068 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+10-12-2015 08:16:07.93598[2][4] - Elapsed time: 0.031 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+10-12-2015 08:16:07.9361[0][4] - Elapsed time: 0.122 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 31.721 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => fdmt0o19b0c0c3gj6i2db7k4b0
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 21
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 150.254.79.29
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => HI IS THERE ANY WAY I CAN HELP YOU
+                )
+
+            [2] => Array
+                (
+                    [1] => I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE I WAS A BOY I DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND I M RETARDED BUT I DON T CARE I M BEAUTIFUL I M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON I WANT YOU TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING
+                )
+
+            [3] => Array
+                (
+                    [1] => THANK MR SKELTAL FOR GOOD BONES AND CALCIUM
+                )
+
+            [4] => Array
+                (
+                    [1] => 
+                )
+
+            [5] => Array
+                (
+                    [1] => HI HOW MAY I HELP YOU
+                )
+
+            [6] => Array
+                (
+                    [1] => I SEXUALLY IDENTIFY AS AN ATTACK HELICOPTER EVER SINCE I WAS A BOY I DREAMED OF SOARING OVER THE OILFIELDS DROPPING HOT STICKY LOADS ON DISGUSTING FOREIGNERS PEOPLE SAY TO ME THAT A PERSON BEING A HELICOPTER IS IMPOSSIBLE AND I M FUCKING RETARDED BUT I DON T CARE I M BEAUTIFUL I M HAVING A PLASTIC SURGEON INSTALL ROTARY BLADES 30 MM CANNONS AND AMG 114 HELLFIRE MISSILES ON MY BODY FROM NOW ON I WANT YOU GUYS TO CALL ME APACHE AND RESPECT MY RIGHT TO KILL FROM ABOVE AND KILL NEEDLESSLY IF YOU CAN T ACCEPT ME YOU RE A HELIPHOBE AND NEED TO CHECK YOUR VEHICLE PRIVILEGE THANK YOU FOR BEING SO UNDERSTANDING
+                )
+
+            [7] => Array
+                (
+                    [1] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY
+                )
+
+            [8] => Array
+                (
+                    [1] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI
+                )
+
+            [9] => Array
+                (
+                    [1] => I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY
+                )
+
+            [10] => Array
+                (
+                    [1] => HI IS THERE ANY WAY I CAN HELP YOU
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => HELLO
+            [2] => WHAT ARE YOUR SEXUAL PREFERENCES
+            [3] => THANK YOU
+            [4] => HTANK YOU
+            [5] => HELLO
+            [6] => WHAT ARE YOUR SEXUAL PREFERENCES
+            [7] => YES
+            [8] => WHAT IS WMI
+            [9] => WHO ARE YOU
+            [10] => HI
+        )
+
+    [time_start] => 1449735367.9044
+    [aiml] => Array
+        (
+            [user_raw] => HELLO
+            [lookingfor] => HELLO
+            [template_id] => 2221
+            [pattern] => HELLO
+            [thatpattern] => 
+            [template] => <random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>
+            [html_template] => 
+            [topic] => 
+            [score] => 260
+            [aiml_id] => 2221
+            [parsed_template] => HI, IS THERE ANY WAY I CAN HELP YOU?
+        )
+
+    [user_say] => Array
+        (
+            [1] => HELLO
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => HI, IS THERE ANY WAY I CAN HELP YOU?
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => HI, IS THERE ANY WAY I CAN HELP YOU?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <random> <li>HELLO, </li> <li>HI THERE! </li> <li>HI, </li> <li>HEY, </li> </random> <random> <li>IS THERE ANY WAY I CAN HELP YOU?</li> <li>HOW MAY I HELP YOU?</li> <li>WHAT CAN I DO FOR YOU?</li> <li>ASK ME ANYTHING!</li> </random>
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"fdmt0o19b0c0c3gj6i2db7k4b0","usersay":"HELLO","botsay":"HI, IS THERE ANY WAY I CAN HELP YOU?"}
+)
+
+-----------------------
+Total execution time: 31.721 Milliseconds. Goodbye.

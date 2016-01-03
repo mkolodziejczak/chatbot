@@ -1,0 +1,375 @@
+[08-Dec-2015 20:48:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:48:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:48:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:52:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:52:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:52:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:53:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:55:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:56:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:57:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 20:57:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:03:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:09:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:09:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:09:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+12/08/2015 21:30:15 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : EntityRef: expecting ';' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:15 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): U CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit&id in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:15 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:15 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><text>The main subject of research of the Department of Algebra and Number Theory concerns analytic and algorithmic number theory, the former being the leading one.            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit&id=605</text></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/08/2015 21:30:22 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : EntityRef: expecting ';' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:22 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): U CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit&id in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:22 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/08/2015 21:30:22 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><text>The main subject of research of the Department of Algebra and Number Theory concerns analytic and algorithmic number theory, the former being the leading one.            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit&id=605</text></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+[08-Dec-2015 21:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:30:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:48:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:48:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:55:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[08-Dec-2015 21:55:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[09-Dec-2015 09:33:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[09-Dec-2015 09:33:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[09-Dec-2015 09:42:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/library/error_functions.php on line 89
+[09-Dec-2015 09:49:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[09-Dec-2015 09:52:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/library/error_functions.php on line 89
+[09-Dec-2015 09:52:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/library/error_functions.php on line 89
+[09-Dec-2015 09:53:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/library/error_functions.php on line 89
+12/09/2015 21:04:15 - PHP ERROR [Warning] -Cannot modify header information - headers already sent by (output started at /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php:777) in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/display_conversation.php on Line 205
+12/09/2015 21:08:19 - PHP ERROR [Warning] -Cannot modify header information - headers already sent by (output started at /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php:777) in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/display_conversation.php on Line 205
+12/09/2015 22:28:39 - PHP ERROR [Warning] -Cannot modify header information - headers already sent by (output started at /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php:89) in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/display_conversation.php on Line 205
+12/09/2015 22:29:44 - PHP ERROR [Warning] -Cannot modify header information - headers already sent by (output started at /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php:89) in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/display_conversation.php on Line 205
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 78
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+12/09/2015 22:44:04 - PHP ERROR [Warning] -preg_replace(): No ending delimiter '%' found in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/find_aiml.php on Line 85
+[10-Dec-2015 08:13:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[10-Dec-2015 08:13:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[10-Dec-2015 08:13:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[10-Dec-2015 08:13:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[10-Dec-2015 08:15:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[10-Dec-2015 08:16:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[15-Dec-2015 22:24:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[15-Dec-2015 22:24:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+[15-Dec-2015 22:24:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: srai line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag srai line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:04 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: srai line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag srai line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): plate><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 21:52:21 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><srai><text>HOW MANY STUDENTS STUDY ON THE FACULTY</text><srai></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:29 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:19:38 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+[16-Dec-2015 22:19:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:32 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:20:47 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 458
+12/16/2015 22:21:49 - PHP ERROR [Warning] -There was a problem parsing the SRAI template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml.php on Line 462
+[16-Dec-2015 22:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bot_id' at row 1' in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php:397
+Stack trace:
+#0 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php(397): PDOStatement->execute()
+#1 /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/conversation_start.php(181): log_conversation(Array)
+#2 {main}
+  thrown in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/conversation/intialise_conversation.php on line 397
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:14 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Opening and ending tag mismatch: random line 1 and template in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag random line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): Entity: line 1: parser error : Premature end of data in tag template line 1 in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct(): >AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -SimpleXMLElement::__construct():                                                                                ^ in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 26
+12/16/2015 22:23:17 - PHP ERROR [Warning] -There was a problem parsing the template as XML. Template value:
+<template><random><li><text>ANYTIME!</text></li><li><text>SURE THING!</text></li><li><text>AT YOUR SERVICE</text></li><li><text>NO PROBLEM!</text></li><random></template> in /var/www/m.kolodziejczak.webh.pl/public_html/AIML/chatbot/core/aiml/parse_aiml_as_XML.php on Line 30

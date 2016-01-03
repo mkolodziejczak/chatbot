@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>HELLO, </li>
+                <li>HI THERE! </li>
+                <li>HI, </li>
+                <li>HEY, </li>
+            </random>
+            <random>
+                <li>IS THERE ANY WAY I CAN HELP YOU?</li>
+                <li>HOW MAY I HELP YOU?</li>
+                <li>WHAT CAN I DO FOR YOU?</li>
+                <li>ASK ME ANYTHING!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY DEPARTMENTS _</pattern>
+        <template>IN WMI THERE ARE 22 DEPARTMENTS. DO YOU WANT TO KNOW WHAT KINDS OF DEPARTMENTS?</template>
+    </category>
+    <category>
+        <pattern>WHAT _ DEPARTMENTS _</pattern>
+            <template>
+                Department of Algebra and Number Theory
+                Department of Algorithmics and Programming
+                Department of Functional Analysis
+                Department of Mathematical Analysis
+                Department of Arithmetical Algebraic Geometry
+                Department of the Didactics of Mathematics
+                Department of Geometry and Topology
+                Department of Computer Linguistics and Artificial Intelligence
+                Department of Mathematical Logic
+                Department of Discrete Mathematics
+                Department of Numerical Methods
+                Department of Imprecise Information Processing Methods
+                Department of Optimization and Control Theory
+                Department of Probability Theory and Mathematical Statistics
+                Department of Differential Equations
+                Department of Algorithms Theory and Data Security
+                Department of Real Functions Theory
+                Department of Theory of Interpolation and Approximation
+                Department of Computations Theory
+                Department of Function Spaces Theory
+                Information Systems Laboratory
+                Financial Econometrics Laboratory
+                ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT?
+        </template>
+    </category>
+    <category>
+        <pattern>Department of Algebra and Number Theory</pattern>
+        <template>
+            The main subject of research of the Department of Algebra and Number Theory concerns analytic and algorithmic number theory, the former being the leading one.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Algebra and Number Theory</pattern>
+        <template><srai>Department of Algebra and Number Theory</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Algorithmics and Programming</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Algorithmics and Programming</pattern>
+        <template><srai>Department of Algorithmics and Programming</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Functional Analysis</pattern>
+        <template>
+            The main area of research of this Department is functional analysis (including its nonarchimedean branch), with close relations to complex analysis, vector measures and integrals, topology (also descriptive topology), and the contemporary theory of equations of various types.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Functional Analysis</pattern>
+        <template><srai>Department of Functional Analysis</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Mathematical Analysis</pattern>
+        <template>
+            Members of the Department of Mathematical Analysis work in the following fields: differential and integral equations in Banach spaces, difference equations, complex analysis, partial differential equations and spectral theory.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Mathematical Analysis</pattern>
+        <template><srai>Department of Mathematical Analysis</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Arithmetical Algebraic Geometry</pattern>
+        <template>
+            The research activity of the Department of Arithmetical Algebraic Geometry concerns mainly the areas of number theory, algebraic geometry and algebraic K-theory.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Arithmetical Algebraic Geometry</pattern>
+        <template><srai>Department of Arithmetical Algebraic Geometry</srai></template>
+    </category>
+    <category>
+        <pattern>Department of the Didactics of Mathematics</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of the Didactics of Mathematics</pattern>
+        <template><srai>Department of the Didactics of Mathematics</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Geometry and Topology</pattern>
+        <template>
+            Research interests of members of the Department of Geometry and Topology concern mainly the fields of topological methods in nonlinear analysis and algebraic and geometric topology.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Geometry and Topology</pattern>
+        <template><srai>Department of Geometry and Topology</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Computer Linguistics and Artificial Intelligence</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way? 
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Computer Linguistics and Artificial Intelligence</pattern>
+        <template><srai>Department of Computer Linguistics and Artificial Intelligence</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Mathematical Logic</pattern>
+        <template>
+            Members of the Department of Mathematical Logic work mainly in the field of logic and the foundations of mathematics. In particular they are interested in the foundations of first and second order arithmetic and in satisfaction classes as well as nonclassical logics (relevant and deontic logic, linear logic).            
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Mathematical Logic</pattern>
+        <template><srai>Department of Mathematical Logic</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Discrete Mathematics</pattern>
+        <template>
+            The research work done in the Department of Discrete Mathematics concerns a variety of problems of probabilistic and algebraic combinatorics in such areas as the theory of random discrete structures, Ramsey theory, graph theory, and combinatorial number theory, as well as their applications, in particular, to theoretical physics and ecology.            
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Discrete Mathematics</pattern>
+        <template><srai>Department of Discrete Mathematics</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Numerical Methods</pattern>
+        <template>
+            Research activity of members of the Department of Numerical Methods concerns especially the applications of the matrix theory in numerical analysis.            
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Numerical Methods</pattern>
+        <template><srai>Department of Numerical Methods</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Imprecise Information Processing Methods</pattern>
+        <template>
+            General research field: Inteligent systems and inteligent computing with special reference to information imprecision and incompletness            
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Imprecise Information Processing Methods</pattern>
+        <template><srai>Department of Imprecise Information Processing Methods</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Optimization and Control Theory</pattern>
+        <template>
+            The staff of the Department conduct research in selected problems of two domains: convex and nonlinear analysis.            
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Optimization and Control Theory</pattern>
+        <template><srai>Department of Optimization and Control Theory</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Probability Theory and Mathematical Statistics</pattern>
+        <template>
+            Members of the Department of Probability Theory and Mathematical Statistics work mainly in the field of multivariate statistics and the theory of experiments.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Probability Theory and Mathematical Statistics</pattern>
+        <template><srai>Department of Probability Theory and Mathematical Statistics</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Differential Equations</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Differential Equations</pattern>
+        <template><srai>Department of Differential Equations</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Algorithms Theory and Data Security</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Algorithms Theory and Data Security</pattern>
+        <template><srai>Department of Algorithms Theory and Data Security</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Real Functions Theory</pattern>
+        <template>
+            Members of the Department of the Theory of Real Functions work mainly in the field of real analysis, functional analysis and general topology.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Real Functions Theory</pattern>
+        <template><srai>Department of Real Functions Theory</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Theory of Interpolation and Approximation</pattern>
+        <template>
+            Members of the Department of Theory of Interpolation and Approximation work mainly in the fields of functional analysis and approximation.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Theory of Interpolation and Approximation</pattern>
+        <template><srai>Department of Theory of Interpolation and Approximation</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Computations Theory</pattern>
+        <template>
+            The Department of Computation Theory was founded in 1993 resulting from the partition of the Department of Mathematical Logic.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Computations Theory</pattern>
+        <template><srai>Department of Computations Theory</srai></template>
+    </category>
+    <category>
+        <pattern>Department of Function Spaces Theory</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+        </template>
+    </category>
+    <category>
+        <pattern>_ Department of Function Spaces Theory</pattern>
+        <template><srai>Department of Function Spaces Theory</srai></template>
+    </category>
+    <category>
+        <pattern>Information Systems Laboratory</pattern>
+        <template>
+            Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+            BUT YOU CAN FIND OUT MORE HERE: http://psi.amu.edu.pl/en/index.php?title=Main_Page
+        </template>
+    </category>
+    <category>
+        <pattern>_ Information Systems Laboratory</pattern>
+        <template><srai>Information Systems Laboratory</srai></template>
+    </category>
+    <category>
+        <pattern>Financial Econometrics Laboratory</pattern>
+        <template>
+            Members of the Laboratory of Financial Econometrics work on applications of econometric analysis and methods of time series analysis to dynamic modeling and forecasting of financial markets.
+            IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/structure?layout=edit
+        </template>
+    </category>
+    <category>
+        <pattern>_ Financial Econometrics Laboratory</pattern>
+        <template><srai>Financial Econometrics Laboratory</srai></template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU WANT TO KNOW WHAT KINDS OF DEPARTMENTS</that>
+        <template><srai>WHAT KINDS OF DEPARTMENTS ARE THERE</srai></template>
+    </category>
+    <category>
+        <pattern>WHERE _ WMI</pattern>
+        <template>WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE!</template>
+    </category>
+    <category>
+        <pattern>WHERE _ WMI _</pattern>
+        <template><srai>WHERE IS WMI</srai></template>
+    </category>
+    <category>
+        <pattern>WHAT _ WMI</pattern>
+        <template>WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY. 
+        IT'S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE!
+        DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI?</template>
+    </category>
+        <category>
+        <pattern>YEAH</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>YES _</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>SURE</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+        <category>
+        <pattern>OF COURSE</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>SURE</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI</that>
+        <template><srai>THE HISTORY OF WMI</srai></template>
+    </category>
+    <category>
+        <pattern>_ HISTORY OF WMI</pattern>
+        <template>IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO- 
+        FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS. 
+        IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ. 
+        IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY.</template>
+    </category>
+    <category>
+        <pattern>_ DEANS _</pattern>
+        <template><srai>WHO THE DEAN IS?</srai></template>
+    </category>
+        <category>
+        <pattern>_ DEANS</pattern>
+        <template><srai>WHO THE DEAN IS?</srai></template>
+    </category>
+        <category>
+        <pattern>_ DEAN</pattern>
+        <template><srai>WHO THE DEAN IS?</srai></template>
+    </category>
+    <category>
+        <pattern>_ DEAN _</pattern>
+        <template>
+        HERE ARE SOME INFORMATIONS ABOUT DEANS:
+        Dean: Professor Jerzy Kaczorowski 
+        Room B2-45
+        Deputy dean for students affairs  (full-time studies): Dr Roman Czarnowski
+        Room B2-41
+        Deputy dean of students affairs (extramural studies): Professor Jerzy Szymanski
+        Room B2-32
+        Deputy dean for research: Professor Witold Wnuk
+        Room B3-43
+        IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/authorities
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT _ STUDIES</pattern>
+        <template><srai>WHAT KIND OF STUDIES ARE THERE?</srai></template>
+    </category>
+    <category>
+        <pattern>WHAT _ STUDIES _</pattern>
+        <template>
+            The faculty offers full-time, extramural, post-graduate and Ph.D studies in mathematics and computer science.
+            IF YOU CAN FIND OUT THE REST HERE: https://www.wmi.amu.edu.pl/en/studies
+            ARE YOU INTERESTED IN ANY SPECIFIC FIELD OF STUDIES?
+        </template>
+    </category>  
+    <category>
+        <pattern>* COMPUTER SCIENCE</pattern>
+        <template><srai>TELL ME SOMETHING ABOUT COMPUTER SCIENCE PROGRAM</srai></template>
+    </category>
+    <category>
+        <pattern>_ COMPUTER SCIENCE _</pattern>
+        <template>
+        Within the Computer Science studies there are two programs available: the Bachelor's and the Engineer's program.
+        The Bachelor's program lasts 3 years (6 semesters) - its graduate is awarded a BSc degree.
+        The Engineer's program lasts 3,5 years (7 semesters) - its graduate student is awarded an engineer's degree.
+        HERE YOU CAN READ THE REST: https://www.wmi.amu.edu.pl/en/studies/computer-science
+        </template>
+    </category>
+    <category>
+        <pattern>I AM *</pattern>
+        <template><srai>MY NAME IS <star/></srai></template>
+    </category>
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>
+            <random>
+                <li>NICE TO MEET YOU <star/></li>
+                <li><star/> IS A VERY NICE NAME</li>
+            </random>
+            <think><set name="userName"><star/></set></think>
+        </template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            <random>
+                <li>OK THEN</li>
+                <li>YOUR LOSS!</li>
+            </random>
+            IS THERE ANY OTHER WAY I CAN HELP YOU?
+        </template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            <random>
+                <li>OF COURSE</li>
+                <li>OBVIOUSLY</li>
+            </random>
+        </template>
+    </category>
+</aiml>

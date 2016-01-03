@@ -1,0 +1,1144 @@
+16-12-2015 23:36:08.60684[0][3] - Elapsed time: 4.328 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+16-12-2015 23:36:08.63049[3][3] - Elapsed time: 23.643 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+16-12-2015 23:36:08.63076[2][3] - Elapsed time: 0.280 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-12-2015 23:36:08.63099[0][3] - Elapsed time: 0.223 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = qqt4o8u6vduguk20pukq10m6j6 
+-----------------------
+16-12-2015 23:36:08.63104[2][3] - Elapsed time: 0.054 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-12-2015 23:36:08.63106[2][3] - Elapsed time: 0.023 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on HOW. 
+-----------------------
+16-12-2015 23:36:08.63113[2][3] - Elapsed time: 0.064 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-12-2015 23:36:08.63198[2][3] - Elapsed time: 0.855 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on MANY. 
+-----------------------
+16-12-2015 23:36:08.63209[2][3] - Elapsed time: 0.101 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on STUDENTS. 
+-----------------------
+16-12-2015 23:36:08.63226[2][3] - Elapsed time: 0.176 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on STUDIES. 
+-----------------------
+16-12-2015 23:36:08.63244[2][3] - Elapsed time: 0.179 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on ON. 
+-----------------------
+16-12-2015 23:36:08.63255[2][3] - Elapsed time: 0.113 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on UNIVERSITY?. 
+-----------------------
+16-12-2015 23:36:08.63281[2][3] - Elapsed time: 0.255 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: HOW MANY STUDENTS STUDIES ON UNIVERSITY
+Convo id: qqt4o8u6vduguk20pukq10m6j6
+Bot id: 1
+Format: json 
+-----------------------
+16-12-2015 23:36:08.63285[3][3] - Elapsed time: 0.040 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+16-12-2015 23:36:08.63303[2][3] - Elapsed time: 0.178 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-12-2015 23:36:08.63306[3][3] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+16-12-2015 23:36:08.63327[2][3] - Elapsed time: 0.215 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-12-2015 23:36:08.6333[2][3] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-12-2015 23:36:08.63349[2][3] - Elapsed time: 0.191 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-12-2015 23:36:08.63352[3][3] - Elapsed time: 0.028 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 41 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+16-12-2015 23:36:08.63374[1][3] - Elapsed time: 0.225 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => WHO WAS THE FACULTY NAMED AFTER
+    [1] => WHEN WAS THE FACULTY OPENED
+    [2] => EHWHO IS THE PATRON OF THE FACULTY
+    [3] => DEPARTMENT OF COMPUTATIONS THEORY
+    [4] => THE DEPARTMENT OF COMPUTATION THEORY
+    [5] => DEPARTMENT OF COMPUTATION THEORY
+    [6] => YES
+    [7] => WHO ARE THE DEANS
+    [8] => HELLO
+    [9] => WHO ARE THE DEANS
+)
+ 
+-----------------------
+16-12-2015 23:36:08.63378[1][3] - Elapsed time: 0.036 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Patron of Computer Science And Mathematics Faculty is Wladyslas Orlicz. He was a Polish mathematician of Lwów School of Mathematics. His main interests were functional analysis and topology: Orlicz spaces are named after him.
+    [1] => THE FACULTY WAS CREATED IN 1993. IN THE MEAN TIME WE'VE SHAPED SOME OF THE FINEST YOUNG PEOPLE IN THE COUNTRY! THAT'S IMPRESSIVE, RIGHT?
+    [2] => Patron of Computer Science And Mathematics Faculty is Wladyslas Orlicz. He was a Polish mathematician of Lwów School of Mathematics. His main interests were functional analysis and topology: Orlicz spaces are named after him.
+    [3] => The Department of Computation Theory was founded in 1993 resulting from the partition of the Department of Mathematical Logic. IT BLOWS YOUR MIND, DOESN'T IT?
+    [4] => What do you mean?
+    [5] => What do you mean?
+    [6] => IF YOU WANT TO APPLY TO ANY PROGRAM I ADAM MICKIEWICZ UNIVERSITY YOU WILL BE NEEDED TO COMPLETE OUR ONLINE APPLICATION. MORE ON THAT HERE: https://erasmus.amu.edu.pl/for-incoming-students/for-erasmus-students/how-to-apply GOOD LUCK! ANY OTHER QUESTIONS?
+    [7] => HERE ARE SOME INFORMATIONS ABOUT DEANS: Dean: Professor Jerzy Kaczorowski Room B2-45 Deputy dean for students affairs (full-time studies): Dr Roman Czarnowski Room B2-41 Deputy dean of students affairs (extramural studies): Professor Jerzy Szymanski Room B2-32 Deputy dean for research: Professor Witold Wnuk Room B3-43 IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/authorities. ARE YOU THINKING OF APPLYING TO WMI?
+    [8] => HI THERE! IS THERE ANY WAY I CAN HELP YOU?
+    [9] => HERE ARE SOME INFORMATIONS ABOUT DEANS: Dean: Professor Jerzy Kaczorowski Room B2-45 Deputy dean for students affairs (full-time studies): Dr Roman Czarnowski Room B2-41 Deputy dean of students affairs (extramural studies): Professor Jerzy Szymanski Room B2-32 Deputy dean for research: Professor Witold Wnuk Room B3-43 IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/authorities. ARE YOU THINKING OF APPLYING TO WMI?
+)
+ 
+-----------------------
+16-12-2015 23:36:08.63384[2][3] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63422[2][3] - Elapsed time: 0.385 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63457[2][3] - Elapsed time: 0.347 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63464[2][3] - Elapsed time: 0.077 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE IS THERE ANY WAY I CAN HELP YOU' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63474[2][3] - Elapsed time: 0.091 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63514[2][3] - Elapsed time: 0.400 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63548[2][3] - Elapsed time: 0.348 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.6357[2][3] - Elapsed time: 0.214 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IF YOU WANT TO APPLY TO ANY PROGRAM I ADAM MICKIEWICZ UNIVERSITY YOU WILL BE NEEDED TO COMPLETE OUR ONLINE APPLICATION MORE ON THAT HERE HTTPS ERASMUS AMU EDU PL FOR INCOMING STUDENTS FOR ERASMUS STUDENTS HOW TO APPLY GOOD LUCK ANY OTHER QUESTIONS' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63589[2][3] - Elapsed time: 0.196 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63597[2][3] - Elapsed time: 0.076 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.6361[2][3] - Elapsed time: 0.131 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63619[2][3] - Elapsed time: 0.088 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63627[2][3] - Elapsed time: 0.085 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63645[2][3] - Elapsed time: 0.174 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THE DEPARTMENT OF COMPUTATION THEORY WAS FOUNDED IN 1993 RESULTING FROM THE PARTITION OF THE DEPARTMENT OF MATHEMATICAL LOGIC IT BLOWS YOUR MIND DOESN T IT' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63664[2][3] - Elapsed time: 0.196 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63685[2][3] - Elapsed time: 0.211 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63714[2][3] - Elapsed time: 0.281 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63728[2][3] - Elapsed time: 0.142 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THE FACULTY WAS CREATED IN 1993 IN THE MEAN TIME WE VE SHAPED SOME OF THE FINEST YOUNG PEOPLE IN THE COUNTRY THAT S IMPRESSIVE RIGHT' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63742[2][3] - Elapsed time: 0.146 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63763[2][3] - Elapsed time: 0.211 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.63829[2][3] - Elapsed time: 0.654 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63836[2][3] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE THE DEANS' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63841[2][3] - Elapsed time: 0.046 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63847[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63851[2][3] - Elapsed time: 0.038 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63857[2][3] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE THE DEANS' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.6386[2][3] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63865[2][3] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YES' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63869[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63875[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF COMPUTATION THEORY' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63879[2][3] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63885[2][3] - Elapsed time: 0.066 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THE DEPARTMENT OF COMPUTATION THEORY' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63889[2][3] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63895[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF COMPUTATIONS THEORY' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63899[2][3] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.6393[2][3] - Elapsed time: 0.312 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'EHWHO IS THE PATRON OF THE FACULTY' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63935[2][3] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63941[2][3] - Elapsed time: 0.066 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHEN WAS THE FACULTY OPENED' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.63945[2][3] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.63952[2][3] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO WAS THE FACULTY NAMED AFTER' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.64053[2][3] - Elapsed time: 1.009 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-12-2015 23:36:08.64056[3][3] - Elapsed time: 0.035 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+16-12-2015 23:36:08.64088[0][4] - Elapsed time: 0.312 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+16-12-2015 23:36:08.64091[0][4] - Elapsed time: 0.032 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+16-12-2015 23:36:08.64093[4][4] - Elapsed time: 0.023 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+16-12-2015 23:36:08.64095[2][4] - Elapsed time: 0.024 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' to the front of the [user_say] array 
+-----------------------
+16-12-2015 23:36:08.64099[4][4] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+16-12-2015 23:36:08.64103[2][4] - Elapsed time: 0.043 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' to the front of the [input] array 
+-----------------------
+16-12-2015 23:36:08.64107[4][4] - Elapsed time: 0.041 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+16-12-2015 23:36:08.64109[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' 
+-----------------------
+16-12-2015 23:36:08.64115[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' 
+-----------------------
+16-12-2015 23:36:08.64118[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+16-12-2015 23:36:08.64144[4][4] - Elapsed time: 0.270 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+16-12-2015 23:36:08.6415[3][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '41' OR `user_id` = '-1') AND
+    `pattern` = 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' 
+-----------------------
+16-12-2015 23:36:08.64167[2][4] - Elapsed time: 0.169 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+16-12-2015 23:36:08.6417[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+16-12-2015 23:36:08.64173[4][4] - Elapsed time: 0.032 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: HOW MANY STUDENTS STUDIES ON UNIVERSITY. Last word:UNIVERSITY 
+-----------------------
+16-12-2015 23:36:08.64176[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: HOW MANY STUDENTS STUDIES ON UNIVERSITY. First word:HOW 
+-----------------------
+16-12-2015 23:36:08.64191[4][4] - Elapsed time: 0.153 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+16-12-2015 23:36:08.64194[4][4] - Elapsed time: 0.034 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+16-12-2015 23:36:08.64197[4][4] - Elapsed time: 0.026 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM 
+-----------------------
+16-12-2015 23:36:08.64203[4][4] - Elapsed time: 0.061 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => PATRON
+    [1] => OF
+    [2] => COMPUTER
+    [3] => SCIENCE
+    [4] => AND
+    [5] => MATHEMATICS
+    [6] => FACULTY
+    [7] => IS
+    [8] => WLADYSLAS
+    [9] => ORLICZ
+    [10] => HE
+    [11] => WAS
+    [12] => A
+    [13] => POLISH
+    [14] => MATHEMATICIAN
+    [15] => OF
+    [16] => LWÓW
+    [17] => SCHOOL
+    [18] => OF
+    [19] => MATHEMATICS
+    [20] => HIS
+    [21] => MAIN
+    [22] => INTERESTS
+    [23] => WERE
+    [24] => FUNCTIONAL
+    [25] => ANALYSIS
+    [26] => AND
+    [27] => TOPOLOGY
+    [28] => ORLICZ
+    [29] => SPACES
+    [30] => ARE
+    [31] => NAMED
+    [32] => AFTER
+    [33] => HIM
+)
+ 
+-----------------------
+16-12-2015 23:36:08.64236[4][4] - Elapsed time: 0.334 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `thatpattern` like '%' 
+-----------------------
+16-12-2015 23:36:08.64241[4][4] - Elapsed time: 0.048 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `thatpattern` like 'PATRON % HIM' OR
+  `thatpattern` like 'PATRON %' OR
+  `thatpattern` like 'PATRON OF %' OR
+  `thatpattern` like 'PATRON OF COMPUTER %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER %' OR
+  `thatpattern` like 'PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% ORLICZ SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% SPACES ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% ARE NAMED AFTER HIM' OR
+  `thatpattern` like '% NAMED AFTER HIM' OR
+  `thatpattern` like '% AFTER HIM' OR
+  `thatpattern` like '% HIM' OR
+  `thatpattern` like '%' OR
+  `thatpattern` like '% OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% ORLICZ SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% SPACES ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% ARE NAMED AFTER HIM %' OR
+  `thatpattern` like '% NAMED AFTER HIM %' OR
+  `thatpattern` like '% AFTER HIM %' OR
+  `thatpattern` like '% HIM %' OR
+  `thatpattern` like '% %' OR
+ 
+-----------------------
+16-12-2015 23:36:08.64249[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: HOW MANY STUDENTS STUDIES ON UNIVERSITY numWords:6 
+-----------------------
+16-12-2015 23:36:08.64253[4][4] - Elapsed time: 0.048 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+16-12-2015 23:36:08.64258[4][4] - Elapsed time: 0.041 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: HOW MANY STUDENTS STUDIES ON UNIVERSITY 
+-----------------------
+16-12-2015 23:36:08.64262[4][4] - Elapsed time: 0.045 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => HOW
+    [1] => MANY
+    [2] => STUDENTS
+    [3] => STUDIES
+    [4] => ON
+    [5] => UNIVERSITY
+)
+ 
+-----------------------
+16-12-2015 23:36:08.64269[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `pattern` like '%' 
+-----------------------
+16-12-2015 23:36:08.64272[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `pattern` like 'HOW % UNIVERSITY' OR
+  `pattern` like 'HOW %' OR
+  `pattern` like 'HOW MANY %' OR
+  `pattern` like 'HOW MANY STUDENTS %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES ON %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% MANY STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% STUDIES ON UNIVERSITY' OR
+  `pattern` like '% ON UNIVERSITY' OR
+  `pattern` like '% UNIVERSITY' OR
+  `pattern` like '%' OR
+  `pattern` like '% MANY STUDENTS STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% STUDENTS STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% ON UNIVERSITY %' OR
+  `pattern` like '% UNIVERSITY %' OR
+  `pattern` like '% %' OR
+ 
+-----------------------
+16-12-2015 23:36:08.64275[3][4] - Elapsed time: 0.027 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' OR 
+  `pattern` like 'HOW % UNIVERSITY' OR
+  `pattern` like 'HOW %' OR
+  `pattern` like 'HOW MANY %' OR
+  `pattern` like 'HOW MANY STUDENTS %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES ON %' OR
+  `pattern` like 'HOW MANY STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% MANY STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% STUDENTS STUDIES ON UNIVERSITY' OR
+  `pattern` like '% STUDIES ON UNIVERSITY' OR
+  `pattern` like '% ON UNIVERSITY' OR
+  `pattern` like '% UNIVERSITY' OR
+  `pattern` like '%' OR
+  `pattern` like '% MANY STUDENTS STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% STUDENTS STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% STUDIES ON UNIVERSITY %' OR
+  `pattern` like '% ON UNIVERSITY %' OR
+  `pattern` like '% UNIVERSITY %' OR
+  `pattern` like '% %' OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+16-12-2015 23:36:08.64444[2][4] - Elapsed time: 1.692 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (132) potential AIML matches 
+-----------------------
+16-12-2015 23:36:08.64508[4][4] - Elapsed time: 0.645 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 132 rows to unset bad matches 
+-----------------------
+16-12-2015 23:36:08.64514[4][4] - Elapsed time: 0.054 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+16-12-2015 23:36:08.65071[4][4] - Elapsed time: 5.574 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 2 relevant rows 
+-----------------------
+16-12-2015 23:36:08.65085[4][4] - Elapsed time: 0.138 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+16-12-2015 23:36:08.65153[4][4] - Elapsed time: 0.680 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 3501
+            [bot_id] => 1
+            [pattern] => HOW MANY STUDENTS _ UNIVERSITY
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 3501
+            [score] => 384
+            [track_score] => current bot, no thatpattern to match, pattern match with underscore, direct word match: how, direct word match: many, direct word match: students, underscore word match, direct word match: university
+        )
+
+    [1] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+16-12-2015 23:36:08.65159[2][4] - Elapsed time: 0.064 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 3501! 
+-----------------------
+16-12-2015 23:36:08.65182[4][4] - Elapsed time: 0.231 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 3501. Value:
+'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' 
+-----------------------
+16-12-2015 23:36:08.65189[4][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 3501
+            [bot_id] => 1
+            [pattern] => HOW MANY STUDENTS _ UNIVERSITY
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 3501
+            [score] => 384
+            [track_score] => current bot, no thatpattern to match, pattern match with underscore, direct word match: how, direct word match: many, direct word match: students, underscore word match, direct word match: university
+        )
+
+)
+ 
+-----------------------
+16-12-2015 23:36:08.65194[2][4] - Elapsed time: 0.042 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 3501 - HOW MANY STUDENTS _ UNIVERSITY 
+-----------------------
+16-12-2015 23:36:08.65198[4][4] - Elapsed time: 0.045 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:3501 (HOW MANY STUDENTS _ UNIVERSITY) 
+-----------------------
+16-12-2015 23:36:08.65202[3][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+16-12-2015 23:36:08.65207[2][4] - Elapsed time: 0.041 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-12-2015 23:36:08.65212[2][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+16-12-2015 23:36:08.65216[2][4] - Elapsed time: 0.042 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking 'HOW MANY STUDENTS (.*) UNIVERSITY' against 'HOW MANY STUDENTS STUDIES ON UNIVERSITY'. 
+-----------------------
+16-12-2015 23:36:08.65223[2][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => HOW MANY STUDENTS STUDIES ON UNIVERSITY
+        )
+
+    [1] => Array
+        (
+            [0] => STUDIES ON
+        )
+
+)
+ 
+-----------------------
+16-12-2015 23:36:08.65229[2][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding STUDIES ON to the star stack. 
+-----------------------
+16-12-2015 23:36:08.65235[2][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-12-2015 23:36:08.6524[2][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-12-2015 23:36:08.65249[4][4] - Elapsed time: 0.091 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?</text></template> 
+-----------------------
+16-12-2015 23:36:08.65258[2][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+16-12-2015 23:36:08.65266[4][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?</text></template>
+ 
+-----------------------
+16-12-2015 23:36:08.65273[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+16-12-2015 23:36:08.65279[2][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+16-12-2015 23:36:08.65286[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?</text> 
+-----------------------
+16-12-2015 23:36:08.65291[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+16-12-2015 23:36:08.65296[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+16-12-2015 23:36:08.653[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+16-12-2015 23:36:08.65305[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the response array. tag name is text 
+-----------------------
+16-12-2015 23:36:08.6531[2][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.65315[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+16-12-2015 23:36:08.6532[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' 
+-----------------------
+16-12-2015 23:36:08.65325[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the response array. tag name is template. 
+-----------------------
+16-12-2015 23:36:08.6533[2][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 23:36:08.65335[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+16-12-2015 23:36:08.6534[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' 
+-----------------------
+16-12-2015 23:36:08.65346[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT? 
+-----------------------
+16-12-2015 23:36:08.65352[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+16-12-2015 23:36:08.65356[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+16-12-2015 23:36:08.65361[2][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the front of the [that_raw] array 
+-----------------------
+16-12-2015 23:36:08.65368[4][4] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+16-12-2015 23:36:08.65379[2][4] - Elapsed time: 0.105 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the front of the [that] array 
+-----------------------
+16-12-2015 23:36:08.65388[4][4] - Elapsed time: 0.088 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students.' 
+-----------------------
+16-12-2015 23:36:08.65392[4][4] - Elapsed time: 0.048 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students.' 
+-----------------------
+16-12-2015 23:36:08.65413[4][4] - Elapsed time: 0.210 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'IN 2008 ON THE UNIVERSITY STUDIED 46 817 UNDERGRADUATES 1308 DOCTORAL STUDENTS AND 2247 OTHER POST GRADUATE STUDENTS' 
+-----------------------
+16-12-2015 23:36:08.65418[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'IN 2008 ON THE UNIVERSITY STUDIED 46 817 UNDERGRADUATES 1308 DOCTORAL STUDENTS AND 2247 OTHER POST GRADUATE STUDENTS' 
+-----------------------
+16-12-2015 23:36:08.65423[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THAT'S A LOT, RIGHT?' 
+-----------------------
+16-12-2015 23:36:08.65428[4][4] - Elapsed time: 0.054 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'THAT'S A LOT, RIGHT?' 
+-----------------------
+16-12-2015 23:36:08.65437[4][4] - Elapsed time: 0.089 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'THAT S A LOT RIGHT' 
+-----------------------
+16-12-2015 23:36:08.65441[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THAT S A LOT RIGHT' 
+-----------------------
+16-12-2015 23:36:08.6545[2][4] - Elapsed time: 0.083 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the front of the [parsed_template] array 
+-----------------------
+16-12-2015 23:36:08.65457[4][4] - Elapsed time: 0.072 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+16-12-2015 23:36:08.65463[2][4] - Elapsed time: 0.067 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?' to the front of the [template] array 
+-----------------------
+16-12-2015 23:36:08.6547[4][4] - Elapsed time: 0.068 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+16-12-2015 23:36:08.65478[2][4] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-12-2015 23:36:08.65484[3][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'HOW MANY STUDENTS STUDIES ON UNIVERSITY',
+      'IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT\'S A LOT, RIGHT?',
+      '41',
+      'qqt4o8u6vduguk20pukq10m6j6',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+16-12-2015 23:36:08.65524[4][4] - Elapsed time: 0.407 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+16-12-2015 23:36:08.65548[3][4] - Elapsed time: 0.241 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '41'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'qqt4o8u6vduguk20pukq10m6j6'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+16-12-2015 23:36:08.65576[2][4] - Elapsed time: 0.271 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-12-2015 23:36:08.65581[4][4] - Elapsed time: 0.056 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+16-12-2015 23:36:08.65586[2][4] - Elapsed time: 0.046 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+16-12-2015 23:36:08.65592[4][4] - Elapsed time: 0.062 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"qqt4o8u6vduguk20pukq10m6j6","usersay":"HOW MANY STUDENTS STUDIES ON UNIVERSITY","botsay":"IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?"} 
+-----------------------
+16-12-2015 23:36:08.65598[2][4] - Elapsed time: 0.064 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+16-12-2015 23:36:08.65603[2][4] - Elapsed time: 0.043 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-12-2015 23:36:08.65618[0][4] - Elapsed time: 0.153 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 53.638 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => qqt4o8u6vduguk20pukq10m6j6
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 41
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 62.152.151.73
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => THAT S A LOT RIGHT
+                    [2] => IN 2008 ON THE UNIVERSITY STUDIED 46 817 UNDERGRADUATES 1308 DOCTORAL STUDENTS AND 2247 OTHER POST GRADUATE STUDENTS
+                )
+
+            [2] => Array
+                (
+                    [1] => PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM
+                )
+
+            [3] => Array
+                (
+                    [1] => THE FACULTY WAS CREATED IN 1993 IN THE MEAN TIME WE VE SHAPED SOME OF THE FINEST YOUNG PEOPLE IN THE COUNTRY THAT S IMPRESSIVE RIGHT
+                )
+
+            [4] => Array
+                (
+                    [1] => PATRON OF COMPUTER SCIENCE AND MATHEMATICS FACULTY IS WLADYSLAS ORLICZ HE WAS A POLISH MATHEMATICIAN OF LWÓW SCHOOL OF MATHEMATICS HIS MAIN INTERESTS WERE FUNCTIONAL ANALYSIS AND TOPOLOGY ORLICZ SPACES ARE NAMED AFTER HIM
+                )
+
+            [5] => Array
+                (
+                    [1] => THE DEPARTMENT OF COMPUTATION THEORY WAS FOUNDED IN 1993 RESULTING FROM THE PARTITION OF THE DEPARTMENT OF MATHEMATICAL LOGIC IT BLOWS YOUR MIND DOESN T IT
+                )
+
+            [6] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [7] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [8] => Array
+                (
+                    [1] => IF YOU WANT TO APPLY TO ANY PROGRAM I ADAM MICKIEWICZ UNIVERSITY YOU WILL BE NEEDED TO COMPLETE OUR ONLINE APPLICATION MORE ON THAT HERE HTTPS ERASMUS AMU EDU PL FOR INCOMING STUDENTS FOR ERASMUS STUDENTS HOW TO APPLY GOOD LUCK ANY OTHER QUESTIONS
+                )
+
+            [9] => Array
+                (
+                    [1] => HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI
+                )
+
+            [10] => Array
+                (
+                    [1] => HI THERE IS THERE ANY WAY I CAN HELP YOU
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => HOW MANY STUDENTS STUDIES ON UNIVERSITY
+            [2] => WHO WAS THE FACULTY NAMED AFTER
+            [3] => WHEN WAS THE FACULTY OPENED
+            [4] => EHWHO IS THE PATRON OF THE FACULTY
+            [5] => DEPARTMENT OF COMPUTATIONS THEORY
+            [6] => THE DEPARTMENT OF COMPUTATION THEORY
+            [7] => DEPARTMENT OF COMPUTATION THEORY
+            [8] => YES
+            [9] => WHO ARE THE DEANS
+            [10] => HELLO
+        )
+
+    [time_start] => 1450308968.6025
+    [aiml] => Array
+        (
+            [user_raw] => HOW MANY STUDENTS STUDIES ON UNIVERSITY
+            [lookingfor] => HOW MANY STUDENTS STUDIES ON UNIVERSITY
+            [template_id] => 3501
+            [pattern] => HOW MANY STUDENTS _ UNIVERSITY
+            [thatpattern] => 
+            [template] => IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?
+            [html_template] => 
+            [topic] => 
+            [score] => 384
+            [aiml_id] => 3501
+            [parsed_template] => IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?
+        )
+
+    [user_say] => Array
+        (
+            [1] => HOW MANY STUDENTS STUDIES ON UNIVERSITY
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [star] => Array
+        (
+            [1] => STUDIES ON
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => THAT'S A LOT, RIGHT?
+                    [3] => IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students.
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"qqt4o8u6vduguk20pukq10m6j6","usersay":"HOW MANY STUDENTS STUDIES ON UNIVERSITY","botsay":"IN 2008 ON THE UNIVERSITY STUDIED 46,817 undergraduates, 1308 doctoral students, and 2247 other post-graduate students. THAT'S A LOT, RIGHT?"}
+)
+
+-----------------------
+Total execution time: 53.638 Milliseconds. Goodbye.

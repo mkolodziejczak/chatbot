@@ -1,0 +1,1152 @@
+16-12-2015 16:31:59.03448[0][3] - Elapsed time: 2.199 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+16-12-2015 16:31:59.0445[3][3] - Elapsed time: 10.029 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+16-12-2015 16:31:59.0448[2][3] - Elapsed time: 0.292 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-12-2015 16:31:59.04505[0][3] - Elapsed time: 0.251 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = pi11jt58ahtqntcoer49d26fb2 
+-----------------------
+16-12-2015 16:31:59.04511[2][3] - Elapsed time: 0.064 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-12-2015 16:31:59.04515[2][3] - Elapsed time: 0.037 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on Do. 
+-----------------------
+16-12-2015 16:31:59.04525[2][3] - Elapsed time: 0.104 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-12-2015 16:31:59.04654[2][3] - Elapsed time: 1.289 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on you. 
+-----------------------
+16-12-2015 16:31:59.04673[2][3] - Elapsed time: 0.184 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on like. 
+-----------------------
+16-12-2015 16:31:59.04687[2][3] - Elapsed time: 0.148 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on campus. 
+-----------------------
+16-12-2015 16:31:59.0471[2][3] - Elapsed time: 0.225 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on morasko?. 
+-----------------------
+16-12-2015 16:31:59.04742[2][3] - Elapsed time: 0.321 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: DO YOU LIKE CAMPUS MORASKO
+Convo id: pi11jt58ahtqntcoer49d26fb2
+Bot id: 1
+Format: json 
+-----------------------
+16-12-2015 16:31:59.04747[3][3] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+16-12-2015 16:31:59.04765[2][3] - Elapsed time: 0.185 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-12-2015 16:31:59.04769[3][3] - Elapsed time: 0.043 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+16-12-2015 16:31:59.04795[2][3] - Elapsed time: 0.255 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-12-2015 16:31:59.048[2][3] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-12-2015 16:31:59.04825[2][3] - Elapsed time: 0.253 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-12-2015 16:31:59.04829[3][3] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 51 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+16-12-2015 16:31:59.04865[1][3] - Elapsed time: 0.358 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => YES
+    [1] => WHAT CAN I DO AT WMI
+    [2] => WHO ARE YO
+    [3] => WHAT ARE YOUR LECTURERS
+    [4] => WHO IS LECTURER AT WMI
+    [5] => WHAT IS WMI
+    [6] => WMI
+    [7] => WHO IS YOUR PROFESSOR AT THE UNIVERISTY
+    [8] => WHO IS YOUR FAVORITE TEACHER
+    [9] => HOW OLD ARE YOU
+)
+ 
+-----------------------
+16-12-2015 16:31:59.04871[1][3] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO- FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS. IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ. IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY.
+    [1] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY.  IT'S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE! DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI?
+    [2] => I'm WMIBOT and I'm here to answer all of your questions on WMI Faculty!
+    [3] => What do you mean?
+    [4] => What do you mean?
+    [5] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY.  IT'S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE! DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI?
+    [6] => What do you mean?
+    [7] => What do you mean?
+    [8] => What do you mean?
+    [9] => What do you mean?
+)
+ 
+-----------------------
+16-12-2015 16:31:59.04879[2][3] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.04892[2][3] - Elapsed time: 0.132 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.0491[2][3] - Elapsed time: 0.182 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.04925[2][3] - Elapsed time: 0.142 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.04941[2][3] - Elapsed time: 0.167 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.04953[2][3] - Elapsed time: 0.116 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.04967[2][3] - Elapsed time: 0.141 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.04978[2][3] - Elapsed time: 0.112 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.04992[2][3] - Elapsed time: 0.134 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.0502[2][3] - Elapsed time: 0.282 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05053[2][3] - Elapsed time: 0.329 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05064[2][3] - Elapsed time: 0.111 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05079[2][3] - Elapsed time: 0.148 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.0509[2][3] - Elapsed time: 0.116 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05105[2][3] - Elapsed time: 0.145 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05122[2][3] - Elapsed time: 0.170 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05141[2][3] - Elapsed time: 0.196 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.0517[2][3] - Elapsed time: 0.285 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05202[2][3] - Elapsed time: 0.325 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05238[2][3] - Elapsed time: 0.358 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.05284[2][3] - Elapsed time: 0.458 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05295[2][3] - Elapsed time: 0.110 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HOW OLD ARE YOU' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05303[2][3] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05314[2][3] - Elapsed time: 0.116 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS YOUR FAVORITE TEACHER' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05321[2][3] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05333[2][3] - Elapsed time: 0.124 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS YOUR PROFESSOR AT THE UNIVERISTY' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05339[2][3] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05349[2][3] - Elapsed time: 0.097 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05355[2][3] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05365[2][3] - Elapsed time: 0.097 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS WMI' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05371[2][3] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05382[2][3] - Elapsed time: 0.112 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS LECTURER AT WMI' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05388[2][3] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05399[2][3] - Elapsed time: 0.107 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT ARE YOUR LECTURERS' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05405[2][3] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05415[2][3] - Elapsed time: 0.097 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE YO' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05421[2][3] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05433[2][3] - Elapsed time: 0.117 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT CAN I DO AT WMI' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05439[2][3] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.05449[2][3] - Elapsed time: 0.102 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YES' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05596[2][3] - Elapsed time: 1.463 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-12-2015 16:31:59.05601[3][3] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+16-12-2015 16:31:59.05636[0][4] - Elapsed time: 0.352 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+16-12-2015 16:31:59.05639[0][4] - Elapsed time: 0.030 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+16-12-2015 16:31:59.05642[4][4] - Elapsed time: 0.030 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+16-12-2015 16:31:59.05644[2][4] - Elapsed time: 0.024 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DO YOU LIKE CAMPUS MORASKO' to the front of the [user_say] array 
+-----------------------
+16-12-2015 16:31:59.05649[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+16-12-2015 16:31:59.05654[2][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DO YOU LIKE CAMPUS MORASKO' to the front of the [input] array 
+-----------------------
+16-12-2015 16:31:59.05658[4][4] - Elapsed time: 0.042 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+16-12-2015 16:31:59.05661[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'DO YOU LIKE CAMPUS MORASKO' 
+-----------------------
+16-12-2015 16:31:59.05666[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'DO YOU LIKE CAMPUS MORASKO' 
+-----------------------
+16-12-2015 16:31:59.05668[4][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+16-12-2015 16:31:59.05694[4][4] - Elapsed time: 0.261 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+16-12-2015 16:31:59.05698[3][4] - Elapsed time: 0.040 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '51' OR `user_id` = '-1') AND
+    `pattern` = 'DO YOU LIKE CAMPUS MORASKO' 
+-----------------------
+16-12-2015 16:31:59.05716[2][4] - Elapsed time: 0.181 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+16-12-2015 16:31:59.05721[4][4] - Elapsed time: 0.045 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+16-12-2015 16:31:59.05725[4][4] - Elapsed time: 0.042 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: DO YOU LIKE CAMPUS MORASKO. Last word:MORASKO 
+-----------------------
+16-12-2015 16:31:59.0573[4][4] - Elapsed time: 0.047 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: DO YOU LIKE CAMPUS MORASKO. First word:DO 
+-----------------------
+16-12-2015 16:31:59.0575[4][4] - Elapsed time: 0.206 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+16-12-2015 16:31:59.05755[4][4] - Elapsed time: 0.046 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+16-12-2015 16:31:59.05758[4][4] - Elapsed time: 0.030 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY 
+-----------------------
+16-12-2015 16:31:59.05765[4][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => IN
+    [1] => 1993
+    [2] => FACULTY
+    [3] => OF
+    [4] => MATHEMATICS
+    [5] => AND
+    [6] => PHYSICS
+    [7] => HAS
+    [8] => BEEN
+    [9] => SEPARATED
+    [10] => INTO
+    [11] => TWO
+    [12] => FACULTY
+    [13] => OF
+    [14] => PHYSICS
+    [15] => AND
+    [16] => FACULTY
+    [17] => OF
+    [18] => COMPUTER
+    [19] => SCIENCE
+    [20] => AND
+    [21] => MATHEMATICS
+    [22] => IT
+    [23] => WAS
+    [24] => NAMED
+    [25] => AFTER
+    [26] => FAMOUS
+    [27] => POLISH
+    [28] => MATHEMATICIAN
+    [29] => WLADYSLAW
+    [30] => ORLICZ
+    [31] => IN
+    [32] => 2001
+    [33] => IT
+    [34] => HAS
+    [35] => BEEN
+    [36] => MOVED
+    [37] => TO
+    [38] => CAMPUS
+    [39] => MORASKO
+    [40] => WHERE
+    [41] => IT
+    [42] => RESIDES
+    [43] => TO
+    [44] => THIS
+    [45] => DAY
+)
+ 
+-----------------------
+16-12-2015 16:31:59.05799[4][4] - Elapsed time: 0.340 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `thatpattern` like '%' 
+-----------------------
+16-12-2015 16:31:59.05803[4][4] - Elapsed time: 0.041 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `thatpattern` like 'IN % DAY' OR
+  `thatpattern` like 'IN %' OR
+  `thatpattern` like 'IN 1993 %' OR
+  `thatpattern` like 'IN 1993 FACULTY %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS %' OR
+  `thatpattern` like 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% MORASKO WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% WHERE IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% IT RESIDES TO THIS DAY' OR
+  `thatpattern` like '% RESIDES TO THIS DAY' OR
+  `thatpattern` like '% TO THIS DAY' OR
+  `thatpattern` like '% THIS DAY' OR
+  `thatpattern` like '% DAY' OR
+  `thatpattern` like '%' OR
+  `thatpattern` like '% 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% POLISH MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% MATHEMATICIAN WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% WLADYSLAW ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% ORLICZ 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% MORASKO WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% WHERE IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% IT RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% RESIDES TO THIS DAY %' OR
+  `thatpattern` like '% TO THIS DAY %' OR
+  `thatpattern` like '% THIS DAY %' OR
+  `thatpattern` like '% DAY %' OR
+  `thatpattern` like '% %' OR
+ 
+-----------------------
+16-12-2015 16:31:59.05806[4][4] - Elapsed time: 0.039 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: DO YOU LIKE CAMPUS MORASKO numWords:5 
+-----------------------
+16-12-2015 16:31:59.05809[4][4] - Elapsed time: 0.026 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+16-12-2015 16:31:59.05812[4][4] - Elapsed time: 0.027 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: DO YOU LIKE CAMPUS MORASKO 
+-----------------------
+16-12-2015 16:31:59.05815[4][4] - Elapsed time: 0.031 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => DO
+    [1] => YOU
+    [2] => LIKE
+    [3] => CAMPUS
+    [4] => MORASKO
+)
+ 
+-----------------------
+16-12-2015 16:31:59.05821[4][4] - Elapsed time: 0.064 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `pattern` like '%' 
+-----------------------
+16-12-2015 16:31:59.05824[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `pattern` like 'DO % MORASKO' OR
+  `pattern` like 'DO %' OR
+  `pattern` like 'DO YOU %' OR
+  `pattern` like 'DO YOU LIKE %' OR
+  `pattern` like 'DO YOU LIKE CAMPUS %' OR
+  `pattern` like 'DO YOU LIKE CAMPUS MORASKO' OR
+  `pattern` like '% YOU LIKE CAMPUS MORASKO' OR
+  `pattern` like '% LIKE CAMPUS MORASKO' OR
+  `pattern` like '% CAMPUS MORASKO' OR
+  `pattern` like '% MORASKO' OR
+  `pattern` like '%' OR
+  `pattern` like '% YOU LIKE CAMPUS MORASKO %' OR
+  `pattern` like '% LIKE CAMPUS MORASKO %' OR
+  `pattern` like '% CAMPUS MORASKO %' OR
+  `pattern` like '% MORASKO %' OR
+  `pattern` like '% %' OR
+ 
+-----------------------
+16-12-2015 16:31:59.05826[3][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'DO YOU LIKE CAMPUS MORASKO' OR 
+  `pattern` like 'DO % MORASKO' OR
+  `pattern` like 'DO %' OR
+  `pattern` like 'DO YOU %' OR
+  `pattern` like 'DO YOU LIKE %' OR
+  `pattern` like 'DO YOU LIKE CAMPUS %' OR
+  `pattern` like 'DO YOU LIKE CAMPUS MORASKO' OR
+  `pattern` like '% YOU LIKE CAMPUS MORASKO' OR
+  `pattern` like '% LIKE CAMPUS MORASKO' OR
+  `pattern` like '% CAMPUS MORASKO' OR
+  `pattern` like '% MORASKO' OR
+  `pattern` like '%' OR
+  `pattern` like '% YOU LIKE CAMPUS MORASKO %' OR
+  `pattern` like '% LIKE CAMPUS MORASKO %' OR
+  `pattern` like '% CAMPUS MORASKO %' OR
+  `pattern` like '% MORASKO %' OR
+  `pattern` like '% %' OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+16-12-2015 16:31:59.05951[2][4] - Elapsed time: 1.246 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (90) potential AIML matches 
+-----------------------
+16-12-2015 16:31:59.05998[4][4] - Elapsed time: 0.476 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 90 rows to unset bad matches 
+-----------------------
+16-12-2015 16:31:59.06004[4][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+16-12-2015 16:31:59.06389[4][4] - Elapsed time: 3.850 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 1 relevant rows 
+-----------------------
+16-12-2015 16:31:59.06401[4][4] - Elapsed time: 0.120 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+16-12-2015 16:31:59.06446[4][4] - Elapsed time: 0.455 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+16-12-2015 16:31:59.06453[2][4] - Elapsed time: 0.065 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 2981! 
+-----------------------
+16-12-2015 16:31:59.06474[4][4] - Elapsed time: 0.213 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 2981. Value:
+'What do you mean?' 
+-----------------------
+16-12-2015 16:31:59.06479[4][4] - Elapsed time: 0.048 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+16-12-2015 16:31:59.06481[2][4] - Elapsed time: 0.026 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 2981 - * 
+-----------------------
+16-12-2015 16:31:59.06484[4][4] - Elapsed time: 0.029 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:2981 (*) 
+-----------------------
+16-12-2015 16:31:59.06487[3][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+16-12-2015 16:31:59.0649[2][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-12-2015 16:31:59.06496[2][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+16-12-2015 16:31:59.065[2][4] - Elapsed time: 0.041 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking '(.*)' against 'DO YOU LIKE CAMPUS MORASKO'. 
+-----------------------
+16-12-2015 16:31:59.06505[2][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => DO YOU LIKE CAMPUS MORASKO
+            [1] => 
+        )
+
+    [1] => Array
+        (
+            [0] => DO YOU LIKE CAMPUS MORASKO
+            [1] => 
+        )
+
+)
+ 
+-----------------------
+16-12-2015 16:31:59.0651[2][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding DO YOU LIKE CAMPUS MORASKO to the star stack. 
+-----------------------
+16-12-2015 16:31:59.06515[2][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-12-2015 16:31:59.06519[2][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-12-2015 16:31:59.06526[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>What do you mean?</text></template> 
+-----------------------
+16-12-2015 16:31:59.06536[2][4] - Elapsed time: 0.098 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+16-12-2015 16:31:59.06545[4][4] - Elapsed time: 0.091 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>What do you mean?</text></template>
+ 
+-----------------------
+16-12-2015 16:31:59.0655[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+16-12-2015 16:31:59.06554[2][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+16-12-2015 16:31:59.06559[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>What do you mean?</text> 
+-----------------------
+16-12-2015 16:31:59.06564[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+16-12-2015 16:31:59.06567[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+16-12-2015 16:31:59.0657[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+16-12-2015 16:31:59.06573[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'What do you mean?' to the response array. tag name is text 
+-----------------------
+16-12-2015 16:31:59.06576[2][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.0658[4][4] - Elapsed time: 0.041 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+16-12-2015 16:31:59.06584[4][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'What do you mean?' 
+-----------------------
+16-12-2015 16:31:59.06587[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'What do you mean?' to the response array. tag name is template. 
+-----------------------
+16-12-2015 16:31:59.06591[2][4] - Elapsed time: 0.041 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-12-2015 16:31:59.06594[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+16-12-2015 16:31:59.06597[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'What do you mean?' 
+-----------------------
+16-12-2015 16:31:59.066[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: What do you mean? 
+-----------------------
+16-12-2015 16:31:59.06603[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+16-12-2015 16:31:59.06606[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+16-12-2015 16:31:59.06608[2][4] - Elapsed time: 0.026 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [that_raw] array 
+-----------------------
+16-12-2015 16:31:59.06612[4][4] - Elapsed time: 0.041 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+16-12-2015 16:31:59.06621[2][4] - Elapsed time: 0.081 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [that] array 
+-----------------------
+16-12-2015 16:31:59.06627[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'What do you mean?' 
+-----------------------
+16-12-2015 16:31:59.06631[4][4] - Elapsed time: 0.037 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'What do you mean?' 
+-----------------------
+16-12-2015 16:31:59.06637[4][4] - Elapsed time: 0.059 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHAT DO YOU MEAN' 
+-----------------------
+16-12-2015 16:31:59.06641[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHAT DO YOU MEAN' 
+-----------------------
+16-12-2015 16:31:59.06647[2][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [parsed_template] array 
+-----------------------
+16-12-2015 16:31:59.06651[4][4] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+16-12-2015 16:31:59.06657[2][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'What do you mean?' to the front of the [template] array 
+-----------------------
+16-12-2015 16:31:59.06661[4][4] - Elapsed time: 0.041 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+16-12-2015 16:31:59.06666[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-12-2015 16:31:59.06669[3][4] - Elapsed time: 0.034 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'DO YOU LIKE CAMPUS MORASKO',
+      'What do you mean?',
+      '51',
+      'pi11jt58ahtqntcoer49d26fb2',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+16-12-2015 16:31:59.067[4][4] - Elapsed time: 0.304 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+16-12-2015 16:31:59.06723[3][4] - Elapsed time: 0.227 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '51'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'pi11jt58ahtqntcoer49d26fb2'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+16-12-2015 16:31:59.06752[2][4] - Elapsed time: 0.293 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-12-2015 16:31:59.06758[4][4] - Elapsed time: 0.057 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+16-12-2015 16:31:59.06763[2][4] - Elapsed time: 0.052 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+16-12-2015 16:31:59.06769[4][4] - Elapsed time: 0.064 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"pi11jt58ahtqntcoer49d26fb2","usersay":"DO YOU LIKE CAMPUS MORASKO","botsay":"What do you mean?"} 
+-----------------------
+16-12-2015 16:31:59.06776[2][4] - Elapsed time: 0.067 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+16-12-2015 16:31:59.06781[2][4] - Elapsed time: 0.047 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-12-2015 16:31:59.06797[0][4] - Elapsed time: 0.161 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 35.661 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => pi11jt58ahtqntcoer49d26fb2
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 51
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 109.173.158.86
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [2] => Array
+                (
+                    [1] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY
+                )
+
+            [3] => Array
+                (
+                    [1] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI
+                )
+
+            [4] => Array
+                (
+                    [1] => I M WMIBOT AND I M HERE TO ANSWER ALL OF YOUR QUESTIONS ON WMI FACULTY
+                )
+
+            [5] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [6] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [7] => Array
+                (
+                    [1] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI
+                )
+
+            [8] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [9] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [10] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => DO YOU LIKE CAMPUS MORASKO
+            [2] => YES
+            [3] => WHAT CAN I DO AT WMI
+            [4] => WHO ARE YO
+            [5] => WHAT ARE YOUR LECTURERS
+            [6] => WHO IS LECTURER AT WMI
+            [7] => WHAT IS WMI
+            [8] => WMI
+            [9] => WHO IS YOUR PROFESSOR AT THE UNIVERISTY
+            [10] => WHO IS YOUR FAVORITE TEACHER
+        )
+
+    [time_start] => 1450283519.0323
+    [aiml] => Array
+        (
+            [user_raw] => DO YOU LIKE CAMPUS MORASKO
+            [lookingfor] => DO YOU LIKE CAMPUS MORASKO
+            [template_id] => 2981
+            [pattern] => *
+            [thatpattern] => 
+            [template] => What do you mean?
+            [html_template] => 
+            [topic] => 
+            [score] => 252
+            [aiml_id] => 2981
+            [parsed_template] => What do you mean?
+        )
+
+    [user_say] => Array
+        (
+            [1] => DO YOU LIKE CAMPUS MORASKO
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [star] => Array
+        (
+            [1] => DO YOU LIKE CAMPUS MORASKO
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => What do you mean?
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => What do you mean?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => What do you mean?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"pi11jt58ahtqntcoer49d26fb2","usersay":"DO YOU LIKE CAMPUS MORASKO","botsay":"What do you mean?"}
+)
+
+-----------------------
+Total execution time: 35.661 Milliseconds. Goodbye.

@@ -1,0 +1,1384 @@
+17-12-2015 08:00:53.20449[0][3] - Elapsed time: 1.773 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+17-12-2015 08:00:53.21244[3][3] - Elapsed time: 7.955 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+17-12-2015 08:00:53.21272[2][3] - Elapsed time: 0.279 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+17-12-2015 08:00:53.21292[0][3] - Elapsed time: 0.204 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 3
+session ID = q4ap0qn7dltv70ahsto1vhj9j1 
+-----------------------
+17-12-2015 08:00:53.21298[2][3] - Elapsed time: 0.051 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+17-12-2015 08:00:53.213[2][3] - Elapsed time: 0.024 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on My. 
+-----------------------
+17-12-2015 08:00:53.21307[2][3] - Elapsed time: 0.068 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+17-12-2015 08:00:53.21392[2][3] - Elapsed time: 0.850 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on name. 
+-----------------------
+17-12-2015 08:00:53.21402[2][3] - Elapsed time: 0.104 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on is. 
+-----------------------
+17-12-2015 08:00:53.21411[2][3] - Elapsed time: 0.089 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on Maciej. 
+-----------------------
+17-12-2015 08:00:53.21431[2][3] - Elapsed time: 0.203 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: MY NAME IS MACIEJ
+Convo id: q4ap0qn7dltv70ahsto1vhj9j1
+Bot id: 1
+Format: json 
+-----------------------
+17-12-2015 08:00:53.21435[3][3] - Elapsed time: 0.038 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+17-12-2015 08:00:53.21454[2][3] - Elapsed time: 0.188 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+17-12-2015 08:00:53.21457[3][3] - Elapsed time: 0.029 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+17-12-2015 08:00:53.21477[2][3] - Elapsed time: 0.201 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+17-12-2015 08:00:53.2148[2][3] - Elapsed time: 0.027 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+17-12-2015 08:00:53.21498[2][3] - Elapsed time: 0.183 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+17-12-2015 08:00:53.21501[3][3] - Elapsed time: 0.034 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `AIML`.`conversation_log` where `user_id` = 61 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+17-12-2015 08:00:53.21602[1][3] - Elapsed time: 1.008 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => DEPARTMENT OF FUNCTION SPACES THEORY
+    [1] => WHAT KIND OF DEPARTMENTS ARE THERE
+    [2] => YES
+    [3] => WHAT IS WMI
+    [4] => HELLO
+    [5] => WHERE IS THE FACULTY
+    [6] => DEAN
+    [7] => WHO IS THE DEAN OF THE FACULTY
+    [8] => WHO ARE THE DEANS OF THE FACULTY
+)
+ 
+-----------------------
+17-12-2015 08:00:53.21606[1][3] - Elapsed time: 0.038 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Unfotunatelty there isn't much information about that department. Maybe I could help in some other way?
+    [1] => Department of Algebra and Number Theory,   Department of Algorithmics and Programming,   Department of Functional Analysis,   Department of Mathematical Analysis,   Department of Arithmetical Algebraic Geometry,   Department of the Didactics of Mathematics,   Department of Geometry and Topology,   Department of Computer Linguistics and Artificial Intelligence,   Department of Mathematical Logic,   Department of Discrete Mathematics,   Department of Numerical Methods,   Department of Imprecise Information Processing Methods,   Department of Optimization and Control Theory,   Department of Probability Theory and Mathematical Statistics,   Department of Differential Equations,   Department of Algorithms Theory and Data Security,   Department of Real Functions Theory,   Department of Theory of Interpolation and Approximation,   Department of Computations Theory,   Department of Function Spaces Theory,   Information Systems Laboratory,   Financial Econometrics Laboratory  ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT?
+    [2] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO- FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS. IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ. IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY. IT'S ONLy A SHORT STORY. ASK ME SOME QUESTIONS TO FIND OUT MORE!
+    [3] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY.  IT'S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE! DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI?
+    [4] => HI THERE! ASK ME ANYTHING!
+    [5] => WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE! ARE YOU THINKING OF APPLYING TO WMI?
+    [6] => What do you mean?
+    [7] => HERE ARE SOME INFORMATIONS ABOUT DEANS: Dean: Professor Jerzy Kaczorowski  Room B2-45 Deputy dean for students affairs (full-time studies): Dr Roman Czarnowski Room B2-41 Deputy dean of students affairs (extramural studies): Professor Jerzy Szymanski Room B2-32 Deputy dean for research: Professor Witold Wnuk Room B3-43 IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/authorities. ARE YOU THINKING OF APPLYING TO WMI?
+    [8] => HERE ARE SOME INFORMATIONS ABOUT DEANS: Dean: Professor Jerzy Kaczorowski Room B2-45 Deputy dean for students affairs (full-time studies): Dr Roman Czarnowski Room B2-41 Deputy dean of students affairs (extramural studies): Professor Jerzy Szymanski Room B2-32 Deputy dean for research: Professor Witold Wnuk Room B3-43 IF YOU WANT YOU CAN FIND OUT MORE HERE: https://www.wmi.amu.edu.pl/en/authorities. ARE YOU THINKING OF APPLYING TO WMI?
+)
+ 
+-----------------------
+17-12-2015 08:00:53.21612[2][3] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21652[2][3] - Elapsed time: 0.396 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21687[2][3] - Elapsed time: 0.354 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21724[2][3] - Elapsed time: 0.369 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21757[2][3] - Elapsed time: 0.332 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21765[2][3] - Elapsed time: 0.078 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT DO YOU MEAN' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21773[2][3] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21785[2][3] - Elapsed time: 0.117 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE ARE YOU THINKING OF APPLYING TO WMI' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21798[2][3] - Elapsed time: 0.135 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21805[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI THERE ASK ME ANYTHING' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21812[2][3] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21828[2][3] - Elapsed time: 0.151 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21846[2][3] - Elapsed time: 0.186 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21872[2][3] - Elapsed time: 0.260 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY IT S ONLY A SHORT STORY ASK ME SOME QUESTIONS TO FIND OUT MORE' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.21898[2][3] - Elapsed time: 0.257 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.21964[2][3] - Elapsed time: 0.661 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF ALGEBRA AND NUMBER THEORY DEPARTMENT OF ALGORITHMICS AND PROGRAMMING DEPARTMENT OF FUNCTIONAL ANALYSIS DEPARTMENT OF MATHEMATICAL ANALYSIS DEPARTMENT OF ARITHMETICAL ALGEBRAIC GEOMETRY DEPARTMENT OF THE DIDACTICS OF MATHEMATICS DEPARTMENT OF GEOMETRY AND TOPOLOGY DEPARTMENT OF COMPUTER LINGUISTICS AND ARTIFICIAL INTELLIGENCE DEPARTMENT OF MATHEMATICAL LOGIC DEPARTMENT OF DISCRETE MATHEMATICS DEPARTMENT OF NUMERICAL METHODS DEPARTMENT OF IMPRECISE INFORMATION PROCESSING METHODS DEPARTMENT OF OPTIMIZATION AND CONTROL THEORY DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS DEPARTMENT OF DIFFERENTIAL EQUATIONS DEPARTMENT OF ALGORITHMS THEORY AND DATA SECURITY DEPARTMENT OF REAL FUNCTIONS THEORY DEPARTMENT OF THEORY OF INTERPOLATION AND APPROXIMATION DEPARTMENT OF COMPUTATIONS THEORY DEPARTMENT OF FUNCTION SPACES THEORY INFORMATION SYSTEMS LABORATORY FINANCIAL ECONOMETRICS LABORATORY ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.22019[2][3] - Elapsed time: 0.554 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22032[2][3] - Elapsed time: 0.129 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.22048[2][3] - Elapsed time: 0.155 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22054[2][3] - Elapsed time: 0.067 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO ARE THE DEANS OF THE FACULTY' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.2206[2][3] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22067[2][3] - Elapsed time: 0.066 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE DEAN OF THE FACULTY' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.2207[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22075[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEAN' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22078[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22084[2][3] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHERE IS THE FACULTY' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22087[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22092[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22096[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22101[2][3] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS WMI' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22104[2][3] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22109[2][3] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YES' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22112[2][3] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.22119[2][3] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT KIND OF DEPARTMENTS ARE THERE' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22122[2][3] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.2213[2][3] - Elapsed time: 0.081 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'DEPARTMENT OF FUNCTION SPACES THEORY' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22222[2][3] - Elapsed time: 0.919 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+17-12-2015 08:00:53.22227[3][3] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `AIML`.`bots` WHERE bot_id = '1' 
+-----------------------
+17-12-2015 08:00:53.22262[0][4] - Elapsed time: 0.352 milliseconds
+[conversation_start.php][Called outside of function][162]
+Debug level = 3 
+-----------------------
+17-12-2015 08:00:53.22265[0][4] - Elapsed time: 0.031 milliseconds
+[conversation_start.php][Called outside of function][164]
+Debug level = 4 
+-----------------------
+17-12-2015 08:00:53.22267[4][4] - Elapsed time: 0.023 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+17-12-2015 08:00:53.2227[2][4] - Elapsed time: 0.023 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'MY NAME IS MACIEJ' to the front of the [user_say] array 
+-----------------------
+17-12-2015 08:00:53.22273[4][4] - Elapsed time: 0.035 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+17-12-2015 08:00:53.22277[2][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'MY NAME IS MACIEJ' to the front of the [input] array 
+-----------------------
+17-12-2015 08:00:53.22281[4][4] - Elapsed time: 0.039 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+17-12-2015 08:00:53.22284[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'MY NAME IS MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.22289[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'MY NAME IS MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.22291[4][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][get_aiml_to_parse][796]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+17-12-2015 08:00:53.22315[4][4] - Elapsed time: 0.238 milliseconds
+[find_aiml.php][find_userdefined_aiml][755]
+Looking for user defined responses 
+-----------------------
+17-12-2015 08:00:53.22318[3][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+User defined SQL: SELECT * FROM `AIML`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '61' OR `user_id` = '-1') AND
+    `pattern` = 'MY NAME IS MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.22334[2][4] - Elapsed time: 0.159 milliseconds
+[find_aiml.php][find_userdefined_aiml][783]
+User defined rows found: '0' 
+-----------------------
+17-12-2015 08:00:53.22338[4][4] - Elapsed time: 0.037 milliseconds
+[find_aiml.php][find_aiml_matches][871]
+Finding the aiml matches from the DB 
+-----------------------
+17-12-2015 08:00:53.22341[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: MY NAME IS MACIEJ. Last word:MACIEJ 
+-----------------------
+17-12-2015 08:00:53.22344[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: MY NAME IS MACIEJ. First word:MY 
+-----------------------
+17-12-2015 08:00:53.2237[4][4] - Elapsed time: 0.261 milliseconds
+[find_aiml.php][find_aiml_matches][885]
+Stored topic = '' 
+-----------------------
+17-12-2015 08:00:53.22373[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+17-12-2015 08:00:53.22375[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY 
+-----------------------
+17-12-2015 08:00:53.22379[4][4] - Elapsed time: 0.040 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => UNFOTUNATELTY
+    [1] => THERE
+    [2] => ISN
+    [3] => T
+    [4] => MUCH
+    [5] => INFORMATION
+    [6] => ABOUT
+    [7] => THAT
+    [8] => DEPARTMENT
+    [9] => MAYBE
+    [10] => I
+    [11] => COULD
+    [12] => HELP
+    [13] => IN
+    [14] => SOME
+    [15] => OTHER
+    [16] => WAY
+)
+ 
+-----------------------
+17-12-2015 08:00:53.22396[4][4] - Elapsed time: 0.161 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `thatpattern` like '%' 
+-----------------------
+17-12-2015 08:00:53.22398[4][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `thatpattern` like 'UNFOTUNATELTY % WAY' OR
+  `thatpattern` like 'UNFOTUNATELTY %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER %' OR
+  `thatpattern` like 'UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% MAYBE I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% I COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% COULD HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% HELP IN SOME OTHER WAY' OR
+  `thatpattern` like '% IN SOME OTHER WAY' OR
+  `thatpattern` like '% SOME OTHER WAY' OR
+  `thatpattern` like '% OTHER WAY' OR
+  `thatpattern` like '% WAY' OR
+  `thatpattern` like '%' OR
+  `thatpattern` like '% THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% MAYBE I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% I COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% COULD HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% HELP IN SOME OTHER WAY %' OR
+  `thatpattern` like '% IN SOME OTHER WAY %' OR
+  `thatpattern` like '% SOME OTHER WAY %' OR
+  `thatpattern` like '% OTHER WAY %' OR
+  `thatpattern` like '% WAY %' OR
+  `thatpattern` like '% %' OR
+ 
+-----------------------
+17-12-2015 08:00:53.22401[4][4] - Elapsed time: 0.028 milliseconds
+[find_aiml.php][wordsCount_inSentence][107]
+Sentence: MY NAME IS MACIEJ numWords:4 
+-----------------------
+17-12-2015 08:00:53.22403[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+17-12-2015 08:00:53.22406[4][4] - Elapsed time: 0.023 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: MY NAME IS MACIEJ 
+-----------------------
+17-12-2015 08:00:53.22408[4][4] - Elapsed time: 0.028 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => MY
+    [1] => NAME
+    [2] => IS
+    [3] => MACIEJ
+)
+ 
+-----------------------
+17-12-2015 08:00:53.22414[4][4] - Elapsed time: 0.058 milliseconds
+[find_aiml.php][make_like_pattern][91]
+mid_lp = `pattern` like '%' 
+-----------------------
+17-12-2015 08:00:53.22417[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][make_like_pattern][94]
+returning like pattern:
+
+  `pattern` like 'MY % MACIEJ' OR
+  `pattern` like 'MY %' OR
+  `pattern` like 'MY NAME %' OR
+  `pattern` like 'MY NAME IS %' OR
+  `pattern` like 'MY NAME IS MACIEJ' OR
+  `pattern` like '% NAME IS MACIEJ' OR
+  `pattern` like '% IS MACIEJ' OR
+  `pattern` like '% MACIEJ' OR
+  `pattern` like '%' OR
+  `pattern` like '% NAME IS MACIEJ %' OR
+  `pattern` like '% IS MACIEJ %' OR
+  `pattern` like '% MACIEJ %' OR
+  `pattern` like '% %' OR
+ 
+-----------------------
+17-12-2015 08:00:53.22419[3][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][find_aiml_matches][941]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `AIML`.`aiml` WHERE
+   bot_id = '1'  AND
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'MY NAME IS MACIEJ' OR 
+  `pattern` like 'MY % MACIEJ' OR
+  `pattern` like 'MY %' OR
+  `pattern` like 'MY NAME %' OR
+  `pattern` like 'MY NAME IS %' OR
+  `pattern` like 'MY NAME IS MACIEJ' OR
+  `pattern` like '% NAME IS MACIEJ' OR
+  `pattern` like '% IS MACIEJ' OR
+  `pattern` like '% MACIEJ' OR
+  `pattern` like '%' OR
+  `pattern` like '% NAME IS MACIEJ %' OR
+  `pattern` like '% IS MACIEJ %' OR
+  `pattern` like '% MACIEJ %' OR
+  `pattern` like '% %' OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+17-12-2015 08:00:53.22568[2][4] - Elapsed time: 1.493 milliseconds
+[find_aiml.php][find_aiml_matches][947]
+FOUND: (132) potential AIML matches 
+-----------------------
+17-12-2015 08:00:53.22609[4][4] - Elapsed time: 0.410 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][135]
+NEW FUNC Searching through 132 rows to unset bad matches 
+-----------------------
+17-12-2015 08:00:53.22613[4][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][144]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+17-12-2015 08:00:53.23057[4][4] - Elapsed time: 4.447 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][246]
+Found 2 relevant rows 
+-----------------------
+17-12-2015 08:00:53.23071[4][4] - Elapsed time: 0.133 milliseconds
+[find_aiml.php][score_matches][283]
+Scoring the matches. 
+-----------------------
+17-12-2015 08:00:53.23111[4][4] - Elapsed time: 0.407 milliseconds
+[find_aiml.php][score_matches][526]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 2891
+            [bot_id] => 1
+            [pattern] => MY NAME IS *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2891
+            [score] => 258
+            [track_score] => current bot, no thatpattern to match, direct word match: my, direct word match: name, direct word match: is, star word match
+        )
+
+    [1] => Array
+        (
+            [id] => 2981
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2981
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+17-12-2015 08:00:53.23116[2][4] - Elapsed time: 0.044 milliseconds
+[find_aiml.php][get_winning_category][635]
+And the winner is... 2891! 
+-----------------------
+17-12-2015 08:00:53.23133[4][4] - Elapsed time: 0.175 milliseconds
+[find_aiml.php][get_winning_category][648]
+Returning the AIML template for id# 2891. Value:
+'<random>
+                <li>NICE TO MEET YOU <star/></li>
+                <li><star/> IS A VERY NICE NAME</li>
+            </random>
+            <think><set name="userName"><star/></set></think>' 
+-----------------------
+17-12-2015 08:00:53.23138[4][4] - Elapsed time: 0.050 milliseconds
+[find_aiml.php][get_highest_scoring_row][619]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 2891
+            [bot_id] => 1
+            [pattern] => MY NAME IS *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 2891
+            [score] => 258
+            [track_score] => current bot, no thatpattern to match, direct word match: my, direct word match: name, direct word match: is, star word match
+        )
+
+)
+ 
+-----------------------
+17-12-2015 08:00:53.23141[2][4] - Elapsed time: 0.025 milliseconds
+[find_aiml.php][get_highest_scoring_row][620]
+Will use randomly picked best response chosen out of 1 responses with same score: 2891 - MY NAME IS * 
+-----------------------
+17-12-2015 08:00:53.23143[4][4] - Elapsed time: 0.026 milliseconds
+[find_aiml.php][get_aiml_to_parse][830]
+Will be parsing id:2891 (MY NAME IS *) 
+-----------------------
+17-12-2015 08:00:53.23146[3][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+17-12-2015 08:00:53.23148[2][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+17-12-2015 08:00:53.23151[2][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+17-12-2015 08:00:53.23153[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking 'MY NAME IS (.*)' against 'MY NAME IS MACIEJ'. 
+-----------------------
+17-12-2015 08:00:53.23157[2][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => MY NAME IS MACIEJ
+        )
+
+    [1] => Array
+        (
+            [0] => MACIEJ
+        )
+
+)
+ 
+-----------------------
+17-12-2015 08:00:53.23162[2][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding MACIEJ to the star stack. 
+-----------------------
+17-12-2015 08:00:53.23166[2][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+17-12-2015 08:00:53.23168[2][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+17-12-2015 08:00:53.23174[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><random><li><text>NICE TO MEET YOU </text><star/></li><li><star/><text> IS A VERY NICE NAME</text></li></random><think><set name="userName"><star/></set></think></template> 
+-----------------------
+17-12-2015 08:00:53.23407[2][4] - Elapsed time: 2.322 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23413[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><random><li><text>NICE TO MEET YOU </text><star/></li><li><star/><text> IS A VERY NICE NAME</text></li></random><think><set name="userName"><star/></set></think></template>
+ 
+-----------------------
+17-12-2015 08:00:53.23417[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+17-12-2015 08:00:53.23421[2][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23425[4][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>NICE TO MEET YOU </text><star/></li><li><star/><text> IS A VERY NICE NAME</text></li></random> 
+-----------------------
+17-12-2015 08:00:53.23428[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.2343[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+17-12-2015 08:00:53.23433[2][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+17-12-2015 08:00:53.2344[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => NICE TO MEET YOU 
+            [star] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [star] => SimpleXMLElement Object
+                (
+                )
+
+            [text] =>  IS A VERY NICE NAME
+        )
+
+)
+ 
+-----------------------
+17-12-2015 08:00:53.23443[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #0 from random tag.
+ 
+-----------------------
+17-12-2015 08:00:53.23446[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23449[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>NICE TO MEET YOU </text><star/></li> 
+-----------------------
+17-12-2015 08:00:53.23453[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+17-12-2015 08:00:53.23457[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23465[4][4] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>NICE TO MEET YOU </text> 
+-----------------------
+17-12-2015 08:00:53.23471[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.23474[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+17-12-2015 08:00:53.23476[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+17-12-2015 08:00:53.23479[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'NICE TO MEET YOU ' to the response array. tag name is text 
+-----------------------
+17-12-2015 08:00:53.23482[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23485[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23488[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'NICE TO MEET YOU ' 
+-----------------------
+17-12-2015 08:00:53.23491[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'NICE TO MEET YOU ' to the response array. tag name is li. 
+-----------------------
+17-12-2015 08:00:53.23494[2][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23498[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element star at level 3. element XML = <star/> 
+-----------------------
+17-12-2015 08:00:53.23501[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_star_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.23503[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element star to the parse_star_tag function 
+-----------------------
+17-12-2015 08:00:53.23506[2][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][216]
+Parsing a STAR tag. 
+-----------------------
+17-12-2015 08:00:53.23509[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][218]
+parse_star_tag called from the star tag at level 3. element = <star/> 
+-----------------------
+17-12-2015 08:00:53.23512[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][225]
+star index = 1. 
+-----------------------
+17-12-2015 08:00:53.23514[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][227]
+Adding 'MACIEJ' to the response array. 
+-----------------------
+17-12-2015 08:00:53.23517[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][229]
+Index value = 1, star value = MACIEJ 
+-----------------------
+17-12-2015 08:00:53.23519[2][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23522[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23526[4][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23529[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'MACIEJ' to the response array. tag name is star 
+-----------------------
+17-12-2015 08:00:53.23532[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23535[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23538[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23541[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'MACIEJ' to the response array. tag name is li. 
+-----------------------
+17-12-2015 08:00:53.23544[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23547[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.2355[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23552[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'NICE TO MEET YOU MACIEJ' for output. 
+-----------------------
+17-12-2015 08:00:53.23555[4][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'NICE TO MEET YOU MACIEJ' to the response array. tag name is random 
+-----------------------
+17-12-2015 08:00:53.23559[2][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23562[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23565[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23568[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'NICE TO MEET YOU MACIEJ' to the response array. tag name is template. 
+-----------------------
+17-12-2015 08:00:53.23572[2][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23576[4][4] - Elapsed time: 0.042 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element think at level 1. element XML = <think><set name="userName"><star/></set></think> 
+-----------------------
+17-12-2015 08:00:53.2358[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_think_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.23583[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element think to the parse_think_tag function 
+-----------------------
+17-12-2015 08:00:53.23585[2][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parse_think_tag][484]
+I'm considering parsing a THINK tag. 
+-----------------------
+17-12-2015 08:00:53.23588[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1080]
+converting the think tag into text. 
+-----------------------
+17-12-2015 08:00:53.23591[2][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23595[4][4] - Elapsed time: 0.040 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element set at level 2. element XML = <set name="userName"><star/></set> 
+-----------------------
+17-12-2015 08:00:53.23599[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_set_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.23602[4][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element set to the parse_set_tag function 
+-----------------------
+17-12-2015 08:00:53.23605[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][402]
+Parsing the SET tag. 
+-----------------------
+17-12-2015 08:00:53.23608[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1080]
+converting the set tag into text. 
+-----------------------
+17-12-2015 08:00:53.23611[2][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+17-12-2015 08:00:53.23616[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element star at level 3. element XML = <star/> 
+-----------------------
+17-12-2015 08:00:53.23619[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_star_tag does exist. Processing now. 
+-----------------------
+17-12-2015 08:00:53.23622[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element star to the parse_star_tag function 
+-----------------------
+17-12-2015 08:00:53.23625[2][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][216]
+Parsing a STAR tag. 
+-----------------------
+17-12-2015 08:00:53.23628[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][218]
+parse_star_tag called from the star tag at level 3. element = <star/> 
+-----------------------
+17-12-2015 08:00:53.23631[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][225]
+star index = 1. 
+-----------------------
+17-12-2015 08:00:53.23635[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][227]
+Adding 'MACIEJ' to the response array. 
+-----------------------
+17-12-2015 08:00:53.23639[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][229]
+Index value = 1, star value = MACIEJ 
+-----------------------
+17-12-2015 08:00:53.23641[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23644[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23648[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23651[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'MACIEJ' to the response array. tag name is star 
+-----------------------
+17-12-2015 08:00:53.23654[2][4] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23657[4][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23661[2][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23665[4][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23669[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23674[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][414]
+var_name = userName and is type: string 
+-----------------------
+17-12-2015 08:00:53.23679[3][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][441]
+Checking the client_properties table for the value of userName. - SQL:
+select `value` from `AIML`.`client_properties` where `user_id` = 61 and `bot_id` = 1 and `name` = 'userName'; 
+-----------------------
+17-12-2015 08:00:53.23702[4][4] - Elapsed time: 0.232 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][454]
+No value found for userName. Inserting MACIEJ into the table. 
+-----------------------
+17-12-2015 08:00:53.23706[3][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][461]
+Saving to DB - SQL:
+insert into `AIML`.`client_properties` (`id`, `user_id`, `bot_id`, `name`, `value`)
+      values (NULL, 61, 1, 'userName', 'MACIEJ'); 
+-----------------------
+17-12-2015 08:00:53.23729[4][4] - Elapsed time: 0.231 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][469]
+Value for userName has ben set. Returning MACIEJ. 
+-----------------------
+17-12-2015 08:00:53.23734[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'MACIEJ' to the response array. tag name is set 
+-----------------------
+17-12-2015 08:00:53.23738[2][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23741[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23745[2][4] - Elapsed time: 0.031 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23747[4][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23751[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23755[4][4] - Elapsed time: 0.033 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding '' to the response array. tag name is think 
+-----------------------
+17-12-2015 08:00:53.23758[2][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23763[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.23766[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning '' 
+-----------------------
+17-12-2015 08:00:53.23769[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding '' to the response array. tag name is template. 
+-----------------------
+17-12-2015 08:00:53.23773[2][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+17-12-2015 08:00:53.23776[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+17-12-2015 08:00:53.2378[4][4] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'NICE TO MEET YOU MACIEJ ' 
+-----------------------
+17-12-2015 08:00:53.23783[4][4] - Elapsed time: 0.039 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: NICE TO MEET YOU MACIEJ 
+-----------------------
+17-12-2015 08:00:53.23787[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+17-12-2015 08:00:53.2379[4][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+17-12-2015 08:00:53.23794[2][4] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'NICE TO MEET YOU MACIEJ' to the front of the [that_raw] array 
+-----------------------
+17-12-2015 08:00:53.23798[4][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+17-12-2015 08:00:53.23806[2][4] - Elapsed time: 0.076 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'NICE TO MEET YOU MACIEJ' to the front of the [that] array 
+-----------------------
+17-12-2015 08:00:53.23811[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23815[4][4] - Elapsed time: 0.037 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23821[4][4] - Elapsed time: 0.063 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23826[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'NICE TO MEET YOU MACIEJ' 
+-----------------------
+17-12-2015 08:00:53.23832[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'NICE TO MEET YOU MACIEJ' to the front of the [parsed_template] array 
+-----------------------
+17-12-2015 08:00:53.23836[4][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+17-12-2015 08:00:53.23841[2][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<random>
+                <li>NICE TO MEET YOU <star/></li>
+                <li><star/> IS A VERY NICE NAME</li>
+            </random>
+            <think><set name="userName"><star/></set></think>' to the front of the [template] array 
+-----------------------
+17-12-2015 08:00:53.23846[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+17-12-2015 08:00:53.23852[2][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+17-12-2015 08:00:53.23856[3][4] - Elapsed time: 0.039 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `AIML`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'MY NAME IS MACIEJ',
+      'NICE TO MEET YOU MACIEJ',
+      '61',
+      'q4ap0qn7dltv70ahsto1vhj9j1',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+17-12-2015 08:00:53.23877[4][4] - Elapsed time: 0.215 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+17-12-2015 08:00:53.23895[3][4] - Elapsed time: 0.181 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `AIML`.`conversation_log`
+        WHERE
+        `user_id` = '61'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'q4ap0qn7dltv70ahsto1vhj9j1'
+        ORDER BY id DESC  LIMIT 1  
+-----------------------
+17-12-2015 08:00:53.23917[2][4] - Elapsed time: 0.216 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+17-12-2015 08:00:53.23921[4][4] - Elapsed time: 0.044 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as json 
+-----------------------
+17-12-2015 08:00:53.23926[2][4] - Elapsed time: 0.050 milliseconds
+[display_conversation.php][get_json][126]
+Outputting response as JSON 
+-----------------------
+17-12-2015 08:00:53.23931[4][4] - Elapsed time: 0.051 milliseconds
+[display_conversation.php][get_json][137]
+Returning JSON string: {"convo_id":"q4ap0qn7dltv70ahsto1vhj9j1","usersay":"MY NAME IS MACIEJ","botsay":"NICE TO MEET YOU MACIEJ"} 
+-----------------------
+17-12-2015 08:00:53.23937[2][4] - Elapsed time: 0.055 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+17-12-2015 08:00:53.2394[2][4] - Elapsed time: 0.034 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+17-12-2015 08:00:53.23953[0][4] - Elapsed time: 0.125 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 36.791 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => q4ap0qn7dltv70ahsto1vhj9j1
+            [bot_name] => Mike
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Stranger
+            [user_name] => Stranger
+            [user_id] => 61
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => maciej.kolodziejczak@o2.pl
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 150.254.79.125
+            [name] => Stranger
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => NICE TO MEET YOU MACIEJ
+                )
+
+            [2] => Array
+                (
+                    [1] => UNFOTUNATELTY THERE ISN T MUCH INFORMATION ABOUT THAT DEPARTMENT MAYBE I COULD HELP IN SOME OTHER WAY
+                )
+
+            [3] => Array
+                (
+                    [1] => DEPARTMENT OF ALGEBRA AND NUMBER THEORY DEPARTMENT OF ALGORITHMICS AND PROGRAMMING DEPARTMENT OF FUNCTIONAL ANALYSIS DEPARTMENT OF MATHEMATICAL ANALYSIS DEPARTMENT OF ARITHMETICAL ALGEBRAIC GEOMETRY DEPARTMENT OF THE DIDACTICS OF MATHEMATICS DEPARTMENT OF GEOMETRY AND TOPOLOGY DEPARTMENT OF COMPUTER LINGUISTICS AND ARTIFICIAL INTELLIGENCE DEPARTMENT OF MATHEMATICAL LOGIC DEPARTMENT OF DISCRETE MATHEMATICS DEPARTMENT OF NUMERICAL METHODS DEPARTMENT OF IMPRECISE INFORMATION PROCESSING METHODS DEPARTMENT OF OPTIMIZATION AND CONTROL THEORY DEPARTMENT OF PROBABILITY THEORY AND MATHEMATICAL STATISTICS DEPARTMENT OF DIFFERENTIAL EQUATIONS DEPARTMENT OF ALGORITHMS THEORY AND DATA SECURITY DEPARTMENT OF REAL FUNCTIONS THEORY DEPARTMENT OF THEORY OF INTERPOLATION AND APPROXIMATION DEPARTMENT OF COMPUTATIONS THEORY DEPARTMENT OF FUNCTION SPACES THEORY INFORMATION SYSTEMS LABORATORY FINANCIAL ECONOMETRICS LABORATORY ARE YOU INTERESTED IN ANY SPECIFIC DEPARTMENT
+                )
+
+            [4] => Array
+                (
+                    [1] => IN 1993 FACULTY OF MATHEMATICS AND PHYSICS HAS BEEN SEPARATED INTO TWO FACULTY OF PHYSICS AND FACULTY OF COMPUTER SCIENCE AND MATHEMATICS IT WAS NAMED AFTER FAMOUS POLISH MATHEMATICIAN WLADYSLAW ORLICZ IN 2001 IT HAS BEEN MOVED TO CAMPUS MORASKO WHERE IT RESIDES TO THIS DAY IT S ONLY A SHORT STORY ASK ME SOME QUESTIONS TO FIND OUT MORE
+                )
+
+            [5] => Array
+                (
+                    [1] => WMI IS COMPUTER SCIENCE AND MATHEMATICS FACULTY IN ADAM MICKIEWICZ UNIVERSITY IT S 1 OF 15 FACULTIES IN ADAM MICKIEWICZ UNIVERSITY BUT IT IS THE BEST ONE DO YOU WANT TO HEAR ABOUT THE HISTORY OF WMI
+                )
+
+            [6] => Array
+                (
+                    [1] => HI THERE ASK ME ANYTHING
+                )
+
+            [7] => Array
+                (
+                    [1] => WMI IS LOCATED IN COLLEGIUM MATHEMATICUM ON UMULTOWSKA 87 IN POZNAN AND IT LOOKS INCREDIBLE ARE YOU THINKING OF APPLYING TO WMI
+                )
+
+            [8] => Array
+                (
+                    [1] => WHAT DO YOU MEAN
+                )
+
+            [9] => Array
+                (
+                    [1] => HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI
+                )
+
+            [10] => Array
+                (
+                    [1] => HERE ARE SOME INFORMATIONS ABOUT DEANS DEAN PROFESSOR JERZY KACZOROWSKI ROOM B2 MINUS 45 DEPUTY DEAN FOR STUDENTS AFFAIRS FULL TIME STUDIES DR ROMAN CZARNOWSKI ROOM B2 MINUS 41 DEPUTY DEAN OF STUDENTS AFFAIRS EXTRAMURAL STUDIES PROFESSOR JERZY SZYMANSKI ROOM B2 MINUS 32 DEPUTY DEAN FOR RESEARCH PROFESSOR WITOLD WNUK ROOM B3 MINUS 43 IF YOU WANT YOU CAN FIND OUT MORE HERE HTTPS WWW WMI AMU EDU PL EN AUTHORITIES ARE YOU THINKING OF APPLYING TO WMI
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => MY NAME IS MACIEJ
+            [2] => DEPARTMENT OF FUNCTION SPACES THEORY
+            [3] => WHAT KIND OF DEPARTMENTS ARE THERE
+            [4] => YES
+            [5] => WHAT IS WMI
+            [6] => HELLO
+            [7] => WHERE IS THE FACULTY
+            [8] => DEAN
+            [9] => WHO IS THE DEAN OF THE FACULTY
+            [10] => WHO ARE THE DEANS OF THE FACULTY
+        )
+
+    [time_start] => 1450339253.2027
+    [aiml] => Array
+        (
+            [user_raw] => MY NAME IS MACIEJ
+            [lookingfor] => MY NAME IS MACIEJ
+            [template_id] => 2891
+            [pattern] => MY NAME IS *
+            [thatpattern] => 
+            [template] => <random>
+                <li>NICE TO MEET YOU <star/></li>
+                <li><star/> IS A VERY NICE NAME</li>
+            </random>
+            <think><set name="userName"><star/></set></think>
+            [html_template] => 
+            [topic] => 
+            [score] => 258
+            [aiml_id] => 2891
+            [parsed_template] => NICE TO MEET YOU MACIEJ
+        )
+
+    [user_say] => Array
+        (
+            [1] => MY NAME IS MACIEJ
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [star] => Array
+        (
+            [1] => MACIEJ
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => NICE TO MEET YOU MACIEJ
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => NICE TO MEET YOU MACIEJ
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <random> <li>NICE TO MEET YOU <star/></li> <li><star/> IS A VERY NICE NAME</li> </random> <think><set name="userName"><star/></set></think>
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"q4ap0qn7dltv70ahsto1vhj9j1","usersay":"MY NAME IS MACIEJ","botsay":"NICE TO MEET YOU MACIEJ"}
+)
+
+-----------------------
+Total execution time: 36.791 Milliseconds. Goodbye.

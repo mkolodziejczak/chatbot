@@ -1,0 +1,178 @@
+08-12-2015 20:14:22.25445[0][4] - Elapsed time: 4.557 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7
+PHP  version 5.4.16
+OS: Linux version #1 SMP Tue Sep 1 18:19:12 MSK 2015 
+-----------------------
+08-12-2015 20:14:22.26743[4][4] - Elapsed time: 12.977 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+08-12-2015 20:14:22.27086[4][4] - Elapsed time: 3.432 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+08-12-2015 20:14:22.27155[4][4] - Elapsed time: 0.690 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+08-12-2015 20:14:22.27549[4][4] - Elapsed time: 3.937 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+08-12-2015 20:14:22.27553[4][4] - Elapsed time: 0.042 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+08-12-2015 20:14:22.28648[4][4] - Elapsed time: 10.951 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+08-12-2015 20:14:22.28658[4][4] - Elapsed time: 0.101 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+08-12-2015 20:14:22.28663[4][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+08-12-2015 20:14:22.2867[4][4] - Elapsed time: 0.067 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+08-12-2015 20:14:22.28673[4][4] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+08-12-2015 20:14:22.28676[4][4] - Elapsed time: 0.033 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+08-12-2015 20:14:22.28682[4][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+08-12-2015 20:14:22.28685[3][4] - Elapsed time: 0.030 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `AIML`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+08-12-2015 20:14:22.31334[2][4] - Elapsed time: 26.488 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+08-12-2015 20:14:22.314[0][4] - Elapsed time: 0.665 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = 42108aiaqt6kv7dq58b5mbb877 
+-----------------------
+08-12-2015 20:14:22.31403[2][4] - Elapsed time: 0.029 milliseconds
+[conversation_start.php][Called outside of function][194]
+Conversation intialised waiting user 
+-----------------------
+08-12-2015 20:14:22.31405[2][4] - Elapsed time: 0.019 milliseconds
+[conversation_start.php][Called outside of function][197]
+Closing Database 
+-----------------------
+08-12-2015 20:14:22.31406[2][4] - Elapsed time: 0.016 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+08-12-2015 20:14:22.31461[0][4] - Elapsed time: 0.541 milliseconds
+[conversation_start.php][Called outside of function][202]
+Conversation Ending. Elapsed time: 64.689 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [star] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [second] => om
+            [third] => om
+            [fourth] => om
+            [fifth] => om
+            [sixth] => om
+            [seventh] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [send_to_user] => 
+)
+
+-----------------------
+Total execution time: 64.689 Milliseconds. Goodbye.
